@@ -1,0 +1,1715 @@
+root@LiveCD ~]gobonet
+GoboNet - an ultra-minimalistic network manager
+
+Usage:
+   gobonet autoconnect
+              Scan WiFi networks and connect to a known one
+   gobonet connect "<essid>"
+              Connect to a given WiFi network
+   gobonet connect_wired
+              Connect to a wired network
+   gobonet disconnect
+              Disconnect WiFi
+   gobonet forget "<essid>"
+              Disconnect WiFi and forget config for this network
+   gobonet list
+              List available WiFi networks
+   gobonet wifi_interface
+              Print detected WiFi interface
+   gobonet wired_interface
+              Print detected wired interface
+
+root@LiveCD ~]gobonet autoconnect
+root@LiveCD ~]gobonet list
+Available networks:
+
+"Wireless-N"
+"Laisvas Internetas-28EB"
+"TP-LINK_2.4GHz_47A9A1"
+
+Type
+   gobonet connect "<network>"
+to connect.
+root@LiveCD ~]gobonet connect TP-LINK_2.4GHz_47A9A1
+lo        Interface doesn't support scanning.
+
+enp5s0    Interface doesn't support scanning.
+
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/Data/Variable/tmp/runtime-root'
+wpa_supplicant: no process found
+dhcpcd: no process found
+Successfully initialized wpa_supplicant
+wlp3s0: waiting for carrier
+wlp3s0: carrier acquired
+wlp3s0: connected to Access Point `TP-LINK_2.4GHz_47A9A1'
+DUID 00:04:25:6e:09:00:9d:8e:81:e0:25:c5:14:da:e9:0f:02:6b
+wlp3s0: IAID 82:a2:48:b4
+wlp3s0: adding address fe80::dadc:cfb0:a155:4b91
+wlp3s0: soliciting an IPv6 router
+wlp3s0: soliciting a DHCP lease
+wlp3s0: offered 192.168.0.105 from 192.168.0.1
+wlp3s0: probing address 192.168.0.105/24
+wlp3s0: leased 192.168.0.105 for 7200 seconds
+wlp3s0: adding route to 192.168.0.0/24
+wlp3s0: adding default route via 192.168.0.1
+forked to background, child pid 3755
+gobonet: Connected to "TP-LINK_2.4GHz_47A9A1"!
+root@LiveCD ~]gobonet connect Wireless-N           
+lo        Interface doesn't support scanning.
+
+enp5s0    Interface doesn't support scanning.
+
+                    Encryption key:off
+Successfully initialized wpa_supplicant
+wlp3s0: waiting for carrier
+wlp3s0: carrier acquired
+wlp3s0: connected to Access Point `Wireless-N'
+DUID 00:04:25:6e:09:00:9d:8e:81:e0:25:c5:14:da:e9:0f:02:6b
+wlp3s0: IAID 82:a2:48:b4
+wlp3s0: adding address fe80::6629:7e88:57e4:e07b
+wlp3s0: soliciting an IPv6 router
+wlp3s0: soliciting a DHCP lease
+wlp3s0: offered 192.168.10.101 from 192.168.10.253
+wlp3s0: probing address 192.168.10.101/24
+wlp3s0: leased 192.168.10.101 for 28800 seconds
+wlp3s0: adding route to 192.168.10.0/24
+wlp3s0: adding default route via 192.168.10.253
+forked to background, child pid 3876
+gobonet: Connected to "Wireless-N"!
+root@LiveCD ~]curl vaido.world/test/Metare.bash
+Compile "anything"
+curl -O https://github.com/vaido-world/test/raw/main/Metare.tar.gz
+tar -xf Metare.tar.gz -C /Data/Compile/Recipes
+curl vaido.world/gobo/unionfs.bash | bash
+Compile Metare
+root@LiveCD ~]curl vaido.world/test/Metare.bash | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   190  100   190    0     0   2794      0 --:--:-- --:--:-- --:--:--  2835
+Compile: Initializing recipes repository
+Cloning into '/Data/Compile/Recipes'...
+remote: Enumerating objects: 205424, done.
+remote: Counting objects: 100% (430/430), done.
+remote: Compressing objects: 100% (336/336), done.
+remote: Total 205424 (delta 128), reused 300 (delta 69), pack-reused 204994
+Receiving objects: 100% (205424/205424), 43.81 MiB | 3.15 MiB/s, done.
+Resolving deltas: 100% (58335/58335), done.
+Updating files: 100% (58046/58046), done.
+Already up to date.
+Compile: Could not find a recipe for anything
+
+Compile: Did you mean this? Syncthing
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   135  100   135    0     0    414      0 --:--:-- --:--:-- --:--:--   412
+tar: This does not look like a tar archive
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   162  100   162    0     0    981      0 --:--:-- --:--:-- --:--:--   987
+InstallPackage: Downloading package to /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
+--2021-08-24 18:29:41--  https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 190327 (186K) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>] 185.87K   318KB/s    in 0.6s    
+
+2021-08-24 18:29:42 (318 KB/s) - ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’ saved [190327/190327]
+
+InstallPackage: Installing Fuse, version 2.9.7.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: Current and default settings are different
+
+ 1	del: Settings/fuse.conf
+ 2	new: 2.9.7/Resources/Defaults/Settings/init.d/fuse
+ 3	new: 2.9.7/Resources/Defaults/Settings/udev/rules.d/99-fuse.rules
+
+UpdateSettings: Quick-updating settings in /Programs/Fuse
+UpdateSettings: Will not use hints as ruby is not installed, or is not in your path.
+UpdateSettings: Cannot parse hints file.
+UpdateSettings: auto: Not deleting Settings/fuse.conf
+UpdateSettings: auto: Using 2.9.7/Resources/Defaults/Settings/init.d/fuse
+UpdateSettings: auto: Using 2.9.7/Resources/Defaults/Settings/udev/rules.d/99-fuse.rules
+SymlinkProgram: Symlinking Fuse 2.9.7.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 9 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
+InstallPackage: Downloading package to /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
+--2021-08-24 18:29:52--  https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 50835 (50K) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]  49.64K   136KB/s    in 0.4s    
+
+2021-08-24 18:29:54 (136 KB/s) - ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’ saved [50835/50835]
+
+InstallPackage: Installing UnionFS-Fuse, version 2.1.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking UnionFS-Fuse 2.1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+InstallPackage: Removing downloaded package /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
+Already up to date.
+Compile: Could not find a recipe for Metare
+
+Compile: Did you mean one of these? ECore
+ Eterm
+ KStars
+ MTR
+ Make
+ Mesa
+ Mftrace
+ Mirage
+ Motor
+ Mpage
+ Mtail
+ Mutagen
+ Nettle
+ Octave
+ RStart
+ Retawq
+ Tar
+ WvWare
+root@LiveCD ~]ls
+canyon.mp3  Desktop  Metare.tar.gz
+root@LiveCD ~]tar -xf
+tar: option requires an argument -- 'f'
+root@LiveCD ~]curl vaido.world/test/Metare.bash             
+Compile "anything"
+curl -L -O https://github.com/vaido-world/test/raw/main/Metare.tar.gz
+tar -xf Metare.tar.gz -C /Data/Compile/Recipes
+curl vaido.world/gobo/unionfs.bash | bash
+Compile Metare
+root@LiveCD ~]curl vaido.world/test/Metare.bash | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   193  100   193    0     0   2680      0 --:--:-- --:--:-- --:--:--  2680
+Already up to date.
+Compile: Could not find a recipe for anything
+
+Compile: Did you mean this? Syncthing
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   135  100   135    0     0    436      0 --:--:-- --:--:-- --:--:--   436
+100   240  100   240    0     0    383      0 --:--:-- --:--:-- --:--:--   383
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   162  100   162    0     0    870      0 --:--:-- --:--:-- --:--:--   866
+InstallPackage: Downloading package to /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
+--2021-08-24 18:33:49--  https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 190327 (186K) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>] 185.87K   345KB/s    in 0.5s    
+
+2021-08-24 18:33:51 (345 KB/s) - ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’ saved [190327/190327]
+
+InstallPackage: Not attempting to install Fuse over same version.
+InstallPackage: Removing downloaded package /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
+InstallPackage: Downloading package to /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
+--2021-08-24 18:33:52--  https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
+Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 50835 (50K) [application/x-tar]
+Saving to: ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’
+
+/Data/Variable/tmp/ 100%[=================>]  49.64K   142KB/s    in 0.4s    
+
+2021-08-24 18:33:54 (142 KB/s) - ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’ saved [50835/50835]
+
+InstallPackage: Not attempting to install UnionFS-Fuse over same version.
+InstallPackage: Removing downloaded package /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
+Already up to date.
+Compile: Checking dependencies...
+Compile: Compiling Metare version 4.14.
+Compile: Running without dependency-based namespace (Runner not available).
+Compile: Checking dependencies for included recipes...
+Already up to date.
+Compile: Compiling LibXFCE4Util version 4.14.0.
+Compile: Running without dependency-based namespace (Runner not available).
+--2021-08-24 18:34:00--  https://archive.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://archive.be.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2 [following]
+--2021-08-24 18:34:01--  https://archive.be.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
+Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
+Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 516358 (504K) [application/x-bzip2]
+Saving to: 'libxfce4util-4.14.0.tar.bz2'
+
+libxfce4util-4.14.0 100%[=================>] 504.26K  1.18MB/s    in 0.4s    
+
+2021-08-24 18:34:02 (1.18 MB/s) - 'libxfce4util-4.14.0.tar.bz2' saved [516358/516358]
+
+Compile: Unpacking file /Data/Compile/Archives/libxfce4util-4.14.0.tar.bz2...
+
+PrepareProgram: Preparing...
+PrepareProgram: Autoconf configure script detected.
+configure: WARNING: unrecognized options: --disable-perl-bindings
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.30.1
+checking for XML::Parser... ok
+checking for perl5... no
+checking for perl... perl
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking err.h usability... yes
+checking err.h presence... yes
+checking for err.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking varargs.h usability... no
+checking varargs.h presence... no
+checking for varargs.h... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for gethostname... yes
+checking for getpwnam... yes
+checking for setlocale... yes
+checking for strdup... yes
+checking for bind_textdomain_codeset... yes
+checking for locale.h... (cached) yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for libintl.h... (cached) yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... (cached) yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  am ar ast be bg bn ca cs cy da de el en_AU en_GB es et eu fi fr gl he hr hu hy_AM hy id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sq sr sv th tr ug uk ur_PK ur uz zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-2.0 >= 2.42.0... 2.63.5
+checking GOBJECT_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GOBJECT_LIBS... -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for glib-2.0 >= 2.42.0... 2.63.5
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lglib-2.0
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.9 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for gobject-introspection... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for vapigen... no
+checking whether to build with debugging support... no
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking whether gcc supports the GNUC visibility attribute... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/version.xml
+config.status: creating docs/Makefile
+config.status: creating libxfce4util/libxfce4util-1.0.pc
+config.status: creating libxfce4util/libxfce4util-config.h
+config.status: creating libxfce4util/Makefile
+config.status: creating po/Makefile.in
+config.status: creating xfce4-kiosk-query/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+configure: WARNING: unrecognized options: --disable-perl-bindings
+
+Build Configuration:
+
+* Debug Support:  no
+* GNU Visibility: yes
+
+/Programs/Make/4.3/bin/make  all-recursive
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+Making all in libxfce4util
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+/Programs/Make/4.3/bin/make  all-am
+make[3]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+  CC       libxfce4util_la-libxfce4util-aliasdef.lo
+  CC       libxfce4util_la-libxfce4util-config.lo
+  CC       libxfce4util_la-libxfce4util-private.lo
+  CC       libxfce4util_la-xfce-fileutils.lo
+  CC       libxfce4util_la-xfce-i18n.lo
+In file included from /usr/include/glib-2.0/glib.h:30,
+                 from ../libxfce4util/libxfce4util-config.h:29,
+                 from ../libxfce4util/libxfce4util.h:27,
+                 from xfce-i18n.c:61:
+xfce-i18n.c: In function ‘IA__xfce_get_path_localized’:
+/usr/include/glib-2.0/glib/galloca.h:39:25: warning: argument to ‘alloca’ may be too large [-Walloca-larger-than=]
+   39 | # define alloca(size)   __builtin_alloca (size)
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/glib-2.0/glib/galloca.h:91:26: note: in expansion of macro ‘alloca’
+   91 | #define g_alloca(size)   alloca (size)
+      |                          ^~~~~~
+/usr/include/glib-2.0/glib/galloca.h:101:56: note: in expansion of macro ‘g_alloca’
+  101 | #define g_newa(struct_type, n_structs) ((struct_type*) g_alloca (sizeof (struct_type) * (gsize) (n_structs)))
+      |                                                        ^~~~~~~~
+xfce-i18n.c:321:12: note: in expansion of macro ‘g_newa’
+  321 |   buffer = g_newa (gchar, size);
+      |            ^~~~~~
+  CC       libxfce4util_la-xfce-kiosk.lo
+  CC       libxfce4util_la-xfce-license.lo
+  CC       libxfce4util_la-xfce-miscutils.lo
+  CC       libxfce4util_la-xfce-posix-signal-handler.lo
+  CC       libxfce4util_la-xfce-rc.lo
+  CC       libxfce4util_la-xfce-rc-config.lo
+  CC       libxfce4util_la-xfce-rc-simple.lo
+  CC       libxfce4util_la-xfce-resource.lo
+  CC       libxfce4util_la-xfce-utf8.lo
+  CCLD     libxfce4util.la
+  GISCAN   libxfce4util-1.0.gir
+xfce-generics.h:22: Warning: libxfce4util: multiple comment blocks documenting 'SECTION:xfce-generics:' identifier (already seen at xfce-generics.h:22).
+xfce-i18n.h:59: Warning: libxfce4util: symbol='gettext': Unknown namespace for symbol 'gettext'
+xfce-i18n.h:60: Warning: libxfce4util: symbol='dgettext': Unknown namespace for symbol 'dgettext'
+xfce-i18n.h:61: Warning: libxfce4util: symbol='dcgettext': Unknown namespace for symbol 'dcgettext'
+xfce-i18n.h:62: Warning: libxfce4util: symbol='ngettext': Unknown namespace for symbol 'ngettext'
+xfce-i18n.h:63: Warning: libxfce4util: symbol='dngettext': Unknown namespace for symbol 'dngettext'
+xfce-i18n.h:64: Warning: libxfce4util: symbol='dcngettext': Unknown namespace for symbol 'dcngettext'
+libxfce4util-config.h:33: Warning: libxfce4util: symbol='LIBXFCE4UTIL_MAJOR_VERSION': Unknown namespace for symbol 'LIBXFCE4UTIL_MAJOR_VERSION'
+libxfce4util-config.h:34: Warning: libxfce4util: symbol='LIBXFCE4UTIL_MINOR_VERSION': Unknown namespace for symbol 'LIBXFCE4UTIL_MINOR_VERSION'
+libxfce4util-config.h:35: Warning: libxfce4util: symbol='LIBXFCE4UTIL_MICRO_VERSION': Unknown namespace for symbol 'LIBXFCE4UTIL_MICRO_VERSION'
+libxfce4util-config.h:37: Warning: libxfce4util: symbol='LIBXFCE4UTIL_CHECK_VERSION': Unknown namespace for symbol 'LIBXFCE4UTIL_CHECK_VERSION'
+  GICOMP   libxfce4util-1.0.gir
+make[3]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+Making all in docs
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+Making all in po
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/po'
+  MSGFMT am.gmo
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT cy.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT hy_AM.gmo
+  MSGFMT hy.gmo
+  MSGFMT id.gmo
+  MSGFMT ie.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT uz.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/po'
+Making all in xfce4-kiosk-query
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+  CC       xfce4_kiosk_query-main.o
+  CCLD     xfce4-kiosk-query
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+Compile: Asserting that requirements are met...
+SandboxInstall: unionfs-fuse is available. Using UnionSandbox.
+SandboxInstall: Installing Metare...
+Making install in libxfce4util
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+/Programs/Make/4.3/bin/make  install-am
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+make[3]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+ /usr/bin/mkdir -p '/usr/lib'
+ /usr/bin/libtool   --mode=install /usr/bin/install -c   libxfce4util.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxfce4util.so.7.0.0 /usr/lib/libxfce4util.so.7.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4util.so.7.0.0 libxfce4util.so.7 || { rm -f libxfce4util.so.7 && ln -s libxfce4util.so.7.0.0 libxfce4util.so.7; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4util.so.7.0.0 libxfce4util.so || { rm -f libxfce4util.so && ln -s libxfce4util.so.7.0.0 libxfce4util.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4util.lai /usr/lib/libxfce4util.la
+libtool: install: /usr/bin/install -c .libs/libxfce4util.a /usr/lib/libxfce4util.a
+libtool: install: chmod 644 /usr/lib/libxfce4util.a
+libtool: install: ranlib /usr/lib/libxfce4util.a
+libtool: finish: PATH="/Programs/Rust/1.41.0/bin:/usr/bin:/Programs/Rust/1.41.0/bin:/usr/bin:/usr/bin:/bin:/bin:/usr/bin:/usr/bin:/usr/bin:/usr/bin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 libxfce4util-1.0.gir '/usr/share/gir-1.0'
+ /usr/bin/mkdir -p '/usr/include/xfce4/libxfce4util'
+ /usr/bin/install -c -m 644 xfce-debug.h xfce-fileutils.h xfce-generics.h xfce-i18n.h xfce-kiosk.h xfce-license.h xfce-miscutils.h xfce-posix-signal-handler.h xfce-rc.h xfce-resource.h xfce-utf8.h libxfce4util.h libxfce4util-config.h '/usr/include/xfce4/libxfce4util'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxfce4util-1.0.pc '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 libxfce4util-1.0.typelib '/usr/lib/girepository-1.0'
+make[3]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/libxfce4util'
+Making install in docs
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libxfce4util-core.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-datatypes.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util.devhelp2
+ /usr/bin/install -c -m 644 ./html/libxfce4util-File-Utilities.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-fundamentals.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Internationalisation.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-POSIX-Signal-Handling.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Resource-Config-File-Support.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Resource-lookup-functions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Software-Licenses.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Unicode-Support-Functions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-utilities.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Version-Information.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Xfce-Generics.html
+ /usr/bin/install -c -m 644 ./html/libxfce4util-Xfce-Kiosk-functions.html
+ /usr/bin/install -c -m 644 ./html/reference.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/docs'
+Making install in po
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/po'
+linguas="am ar ast be bg bn ca cs cy da de el en_AU en_GB es et eu fi fr gl he hr hu hy_AM hy id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sq sr sv th tr ug uk ur_PK ur uz zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /Data/Compile/Sources/libxfce4util-4.14.0/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/libxfce4util.mo; \
+    echo "installing $lang.gmo as $dir/libxfce4util.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/libxfce4util.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libxfce4util.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/libxfce4util.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libxfce4util.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/libxfce4util.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libxfce4util.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/libxfce4util.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/libxfce4util.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/libxfce4util.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/libxfce4util.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/libxfce4util.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/libxfce4util.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/libxfce4util.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libxfce4util.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/libxfce4util.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libxfce4util.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libxfce4util.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/libxfce4util.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/libxfce4util.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/libxfce4util.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/libxfce4util.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/libxfce4util.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/libxfce4util.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/libxfce4util.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libxfce4util.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/libxfce4util.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/libxfce4util.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/libxfce4util.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libxfce4util.mo
+installing hy_AM.gmo as /usr/share/locale/hy_AM/LC_MESSAGES/libxfce4util.mo
+installing hy.gmo as /usr/share/locale/hy/LC_MESSAGES/libxfce4util.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/libxfce4util.mo
+installing ie.gmo as /usr/share/locale/ie/LC_MESSAGES/libxfce4util.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/libxfce4util.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libxfce4util.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libxfce4util.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/libxfce4util.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/libxfce4util.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/libxfce4util.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/libxfce4util.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/libxfce4util.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/libxfce4util.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libxfce4util.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/libxfce4util.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/libxfce4util.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/libxfce4util.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libxfce4util.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/libxfce4util.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libxfce4util.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/libxfce4util.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libxfce4util.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/libxfce4util.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/libxfce4util.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/libxfce4util.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libxfce4util.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libxfce4util.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/libxfce4util.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/libxfce4util.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/libxfce4util.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libxfce4util.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/libxfce4util.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/libxfce4util.mo
+installing uz.gmo as /usr/share/locale/uz/LC_MESSAGES/libxfce4util.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libxfce4util.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/libxfce4util.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libxfce4util.mo
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/po'
+Making install in xfce4-kiosk-query
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+ /usr/bin/mkdir -p '/usr/sbin'
+  /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-kiosk-query '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/xfce4-kiosk-query /usr/sbin/xfce4-kiosk-query
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0/xfce4-kiosk-query'
+make[1]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+make[2]: Entering directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+make[1]: Leaving directory '/Data/Compile/Sources/libxfce4util-4.14.0'
+UnionSandbox: Cleaning up.
+UnionSandbox: Moving entries to: /Programs/Metare/4.14/.SandboxInstall_Root
+SandboxInstall: Postprocessing Sandbox
+Compile: Stripping executables...
+SymlinkProgram: Symlinking Metare 4.14.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 6 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 63 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+SymlinkProgram: Symlinking Metare 4.14.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 6 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 62 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+Already up to date.
+Compile: Could not find recipe for XFConf 4.14.1.
+Compile: Attempt to create recipe for version 4.14.1?
+Compile: Press Enter to continue or Ctrl-C to cancel.
+Already up to date.
+NewVersion: Recipe found in /Data/Compile/Recipes/XFConf/4.14.4
+NewVersion: Creating recipe for XFConf 4.14.1 based on 4.14.4.
+NewVersion: Please fill in the 'compileRecipeAuthor' variable in /System/Settings/Compile/Compile.conf
+NewVersion: Downloading source code...
+--2021-08-24 18:35:07--  https://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2 [following]
+--2021-08-24 18:35:07--  https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 644804 (630K) [application/octet-stream]
+Saving to: 'xfconf-4.14.1.tar.bz2'
+
+xfconf-4.14.1.tar.b 100%[=================>] 629.69K  3.11MB/s    in 0.2s    
+
+2021-08-24 18:35:07 (3.11 MB/s) - 'xfconf-4.14.1.tar.bz2' saved [644804/644804]
+
+NewVersion: Recipe template for XFConf 4.14.1 created
+NewVersion: Printing result (/Data/Compile/Recipes/XFConf/4.14.1/Recipe):
+# Recipe (MakeRecipe) for XFConf by Philip Pokarowski, on Wed 22 Jul 2020 01:23:26 AM CEST
+compile_version=017-GIT
+url="https://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2"
+file_size=644804
+file_md5=cb51a59e2a89d05232f825ad8c74a7c0
+dir='xfconf-4.14.1'
+recipe_type=configure
+configure_options=(
+    --disable-perl-bindings
+)
+NewVersion: Done
+Compile: Compiling XFConf version 4.14.4.
+Compile: Running without dependency-based namespace (Runner not available).
+--2021-08-24 18:35:09--  https://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.4.tar.bz2
+Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
+Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.4.tar.bz2 [following]
+--2021-08-24 18:35:09--  https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.4.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 592024 (578K) [application/octet-stream]
+Saving to: 'xfconf-4.14.4.tar.bz2'
+
+xfconf-4.14.4.tar.b 100%[=================>] 578.15K  1.85MB/s    in 0.3s    
+
+2021-08-24 18:35:10 (1.85 MB/s) - 'xfconf-4.14.4.tar.bz2' saved [592024/592024]
+
+Compile: Unpacking file /Data/Compile/Archives/xfconf-4.14.4.tar.bz2...
+
+PrepareProgram: Preparing...
+PrepareProgram: Autoconf configure script detected.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.30.1
+checking for XML::Parser... ok
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for unistd.h... (cached) yes
+checking for fdatasync... yes
+checking for fsync... yes
+checking for setlocale... yes
+checking for locale.h... (cached) yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar ast be bg bn ca cs da de el en_AU en_CA en_GB es eu fi fr gl he hr hu hy_AM id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for gdbus-codegen... /usr/bin/gdbus-codegen
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-2.0 >= 2.42.0... 2.63.5
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-2.0 >= 2.42.0... 2.63.5
+checking GIO_CFLAGS... -pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-unix-2.0 >= 2.42.0... 2.63.5
+checking GIO_UNIX_CFLAGS... -pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_UNIX_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gthread-2.0 >= 2.42.0... 2.63.5
+checking GTHREAD_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTHREAD_LIBS... -lgthread-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.10.0... 4.14.0
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for perl5.8... no
+checking for perl5.6... no
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking alignment of guchar... 1
+checking alignment of gchar... 1
+checking alignment of guint16... 2
+checking alignment of gint16... 2
+checking alignment of guint32... 4
+checking alignment of gint32... 4
+checking alignment of guint64... 8
+checking alignment of gint64... 8
+checking alignment of gfloat... 4
+checking alignment of gdouble... 8
+checking alignment of gboolean... 4
+checking alignment of gpointer... 8
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.0 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for glib-2.0 >= 2.10.0 gobject-2.0  >= 2.10.0... yes
+checking whether to build the GSettings backend module... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gmodule-2.0 >= 2.42.0... 2.63.5
+checking GMODULE_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GMODULE_LIBS... -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+checking for gobject-introspection... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for vapigen... no
+checking whether to build with debugging support... minimum
+checking if gcc supports -Wno-sign-compare... yes
+checking if gcc supports -Wall... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Wno-unused-parameter... yes
+checking whether gcc supports the GNUC visibility attribute... yes
+checking if gcc supports -xldscope=hidden... no
+checking if gcc supports -fvisibility=hidden... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating common/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/version.xml
+config.status: creating docs/spec/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tests/Makefile
+config.status: creating tests/set-properties/Makefile
+config.status: creating tests/has-properties/Makefile
+config.status: creating tests/get-properties/Makefile
+config.status: creating tests/reset-properties/Makefile
+config.status: creating tests/object-bindings/Makefile
+config.status: creating tests/property-changed-signal/Makefile
+config.status: creating xfconf/Makefile
+config.status: creating xfconf/libxfconf-0.pc
+config.status: creating xfconf-perl/Makefile.PL
+config.status: creating xfconf-perl/Makefile
+config.status: creating xfconf-perl/Xfconf.pm
+config.status: creating xfconf-perl/xs/Makefile
+config.status: creating xfconf-query/Makefile
+config.status: creating xfconfd/Makefile
+config.status: creating gsettings-backend/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+  * GSettings Backend:         no
+  * GObject Introspection:     yes
+  * Vala support:              no
+
+  * Debug:                     minimum
+
+/Programs/Make/4.3/bin/make  all-recursive
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4'
+Making all in common
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+  GEN      xfconf-marshal.c
+INFO: Reading ./xfconf-marshal.list...
+  GEN      xfconf-marshal.h
+INFO: Reading ./xfconf-marshal.list...
+  GEN      xfconf-gdbus-bindings.c
+/Programs/Make/4.3/bin/make  all-am
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+  CC       libxfconf_common_la-xfconf-errors.lo
+  CC       libxfconf_common_la-xfconf-marshal.lo
+  CCLD     libxfconf-common.la
+  CC       libxfconf_gvaluefuncs_la-xfconf-gvaluefuncs.lo
+  CCLD     libxfconf-gvaluefuncs.la
+  CC       libxfconf_dbus_la-xfconf-gdbus-bindings.lo
+  CCLD     libxfconf-dbus.la
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+Making all in xfconf
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+  CC       libxfconf_0_la-xfconf-binding.lo
+  CC       libxfconf_0_la-xfconf-cache.lo
+  CC       libxfconf_0_la-xfconf-channel.lo
+  CC       libxfconf_0_la-xfconf.lo
+  CC       libxfconf_0_la-xfconf-types.lo
+  CCLD     libxfconf-0.la
+  GISCAN   Xfconf-0.gir
+  GICOMP   Xfconf-0.gir
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+Making all in xfconfd
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+  CC       xfconfd-main.o
+  CC       xfconfd-xfconf-backend-factory.o
+  CC       xfconfd-xfconf-backend.o
+  CC       xfconfd-xfconf-daemon.o
+  CC       xfconfd-xfconf-locking-utils.o
+  CC       xfconfd-xfconf-backend-perchannel-xml.o
+  CC       xfconfd-xfconf-types.o
+  CCLD     xfconfd
+  GEN      org.xfce.Xfconf.service
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+Making all in xfconf-query
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+  CC       xfconf_query-main.o
+  CCLD     xfconf-query
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+Making all in xfconf-perl
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+Making all in xs
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+Making all in po
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/po'
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_CA.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT hy_AM.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/po'
+Making all in docs
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+Making all in reference
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+Making all in spec
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+Making all in tests
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+Making all in set-properties
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+Making all in has-properties
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+Making all in get-properties
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+Making all in reset-properties
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+Making all in property-changed-signal
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+Making all in object-bindings
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4'
+Compile: Asserting that requirements are met...
+SandboxInstall: unionfs-fuse is available. Using UnionSandbox.
+SandboxInstall: Installing Metare...
+Making install in common
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+/Programs/Make/4.3/bin/make  install-am
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/common'
+Making install in xfconf
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+ /usr/bin/mkdir -p '/usr/lib'
+ /usr/bin/libtool   --mode=install /usr/bin/install -c   libxfconf-0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxfconf-0.so.3.0.0 /usr/lib/libxfconf-0.so.3.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfconf-0.so.3.0.0 libxfconf-0.so.3 || { rm -f libxfconf-0.so.3 && ln -s libxfconf-0.so.3.0.0 libxfconf-0.so.3; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfconf-0.so.3.0.0 libxfconf-0.so || { rm -f libxfconf-0.so && ln -s libxfconf-0.so.3.0.0 libxfconf-0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfconf-0.lai /usr/lib/libxfconf-0.la
+libtool: install: /usr/bin/install -c .libs/libxfconf-0.a /usr/lib/libxfconf-0.a
+libtool: install: chmod 644 /usr/lib/libxfconf-0.a
+libtool: install: ranlib /usr/lib/libxfconf-0.a
+libtool: finish: PATH="/Programs/Rust/1.41.0/bin:/usr/bin:/Programs/Rust/1.41.0/bin:/usr/bin:/usr/bin:/bin:/bin:/usr/bin:/usr/bin:/usr/bin:/usr/bin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Xfconf-0.gir '/usr/share/gir-1.0'
+ /usr/bin/mkdir -p '/usr/include/xfce4/xfconf-0/xfconf'
+ /usr/bin/install -c -m 644 xfconf-binding.h xfconf-channel.h xfconf-errors.h xfconf-types.h xfconf.h '/usr/include/xfce4/xfconf-0/xfconf'
+ /usr/bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxfconf-0.pc '/usr/lib/pkgconfig'
+ /usr/bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Xfconf-0.typelib '/usr/lib/girepository-1.0'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf'
+Making install in xfconfd
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.xfce.Xfconf.service '/usr/share/dbus-1/services'
+ /usr/bin/mkdir -p '/usr/lib/xfce4/xfconf'
+  /usr/bin/libtool   --mode=install /usr/bin/install -c xfconfd '/usr/lib/xfce4/xfconf'
+libtool: install: /usr/bin/install -c xfconfd /usr/lib/xfce4/xfconf/xfconfd
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconfd'
+Making install in xfconf-query
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+ /usr/bin/mkdir -p '/usr/bin'
+  /usr/bin/libtool   --mode=install /usr/bin/install -c xfconf-query '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xfconf-query /usr/bin/xfconf-query
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-query'
+Making install in xfconf-perl
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+Making install in xs
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl/xs'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/xfconf-perl'
+Making install in po
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/po'
+linguas="ar ast be bg bn ca cs da de el en_AU en_CA en_GB es eu fi fr gl he hr hu hy_AM id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /Data/Compile/Sources/xfconf-4.14.4/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/xfconf.mo; \
+    echo "installing $lang.gmo as $dir/xfconf.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/xfconf.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/xfconf.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/xfconf.mo.m; \
+    echo "installing $lang.gmo.m as $dir/xfconf.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/xfconf.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/xfconf.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/xfconf.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/xfconf.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/xfconf.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xfconf.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/xfconf.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xfconf.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xfconf.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xfconf.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xfconf.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xfconf.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/xfconf.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/xfconf.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xfconf.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xfconf.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/xfconf.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/xfconf.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xfconf.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/xfconf.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/xfconf.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/xfconf.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/xfconf.mo
+installing hy_AM.gmo as /usr/share/locale/hy_AM/LC_MESSAGES/xfconf.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/xfconf.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/xfconf.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/xfconf.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/xfconf.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/xfconf.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/xfconf.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/xfconf.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/xfconf.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/xfconf.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/xfconf.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/xfconf.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/xfconf.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/xfconf.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/xfconf.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xfconf.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/xfconf.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/xfconf.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/xfconf.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/xfconf.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/xfconf.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/xfconf.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/xfconf.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/xfconf.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/xfconf.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/xfconf.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/xfconf.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/xfconf.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/xfconf.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/xfconf.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/xfconf.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/xfconf.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/xfconf.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xfconf.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/xfconf.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xfconf.mo
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/po'
+Making install in docs
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+Making install in reference
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/ch04.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/xfconf.devhelp2
+ /usr/bin/install -c -m 644 ./html/xfconf-Error-Reporting.html
+ /usr/bin/install -c -m 644 ./html/xfconf-Xfconf-Backend.html
+ /usr/bin/install -c -m 644 ./html/xfconf-Xfconf-Channel.html
+ /usr/bin/install -c -m 644 ./html/xfconf-Xfconf-GObject-Binding.html
+ /usr/bin/install -c -m 644 ./html/xfconf-Xfconf-Library-Core.html
+ /usr/bin/install -c -m 644 ./html/xfconf-Xfconf-Types.html
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/reference'
+Making install in spec
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs/spec'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/docs'
+Making install in tests
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+Making install in set-properties
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/set-properties'
+Making install in has-properties
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/has-properties'
+Making install in get-properties
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/get-properties'
+Making install in reset-properties
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/reset-properties'
+Making install in property-changed-signal
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/property-changed-signal'
+Making install in object-bindings
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests/object-bindings'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[3]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4/tests'
+make[1]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4'
+make[2]: Entering directory '/Data/Compile/Sources/xfconf-4.14.4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4'
+make[1]: Leaving directory '/Data/Compile/Sources/xfconf-4.14.4'
+UnionSandbox: Cleaning up.
+UnionSandbox: Moving entries to: /Programs/Metare/4.14/.SandboxInstall_Root
+SandboxInstall: Postprocessing Sandbox
+Compile: Stripping executables...
+SymlinkProgram: Symlinking Metare 4.14.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 13 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Creating expanded directory 'services'...
+SymlinkProgram: Processed 122 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+SymlinkProgram: Symlinking Metare 4.14.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 13 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 120 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+SymlinkProgram: Symlinking Metare 4.14.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 13 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 120 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+Compile: Compiling Metare version 4.14.
+Compile: Generating package's build information...
+GenBuildInformation: Generating dependency report. Please wait:  -
+
+Compile: You are encouraged to submit your recipe for inclusion into the distribution.
+Compile: Please run 'ContributeRecipe Metare 4.14' to do this.
