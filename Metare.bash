@@ -2,6 +2,15 @@
 # cat Metare.bash | bash
 # curl vaido.world/test/Metare.bash | bash
 # Works well: bash Metare.bash
+#
+# you can simply put any recipe into bash file and pipe it and it will hang on Dependencies Compile question.
+# nano test.bash
+# Put there: Compile Thunar
+# Press CTRL + X to save and then Enter
+# cat test.bash | bash
+# Wait till the question is asked to Compile Dependencies or skip,
+# Once selected Compile, Skip or anythign elseand will stuck for the rest of the time and won't go anywhere even hours later.
+
 
 
 Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
