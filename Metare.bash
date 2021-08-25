@@ -1,7 +1,7 @@
 Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
 
 
-
+# 4.14.1 version of XFConf does not exist in the offical Recipes Repository. 
 curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.tar.gz" --remote-name
 tar --extract --file="XFConf.tar.gz" --directory="/Data/Compile/Recipes"
 
