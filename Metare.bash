@@ -44,7 +44,10 @@ mv XFCE4-Power-Manager/* "/Data/Compile/Recipes/XFCE4-Power-Manager"
 
 
 # Need a docbook V4.3 that includes removal of docbook config entries before installation.
-
+sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
+bash  /Programs/DocBook-XML-DTD/4.5/Resources/PostInstall
 
 # First Requirement
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
