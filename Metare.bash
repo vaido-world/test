@@ -1,3 +1,8 @@
+# Piping bug
+# cat Metare.bash | bash
+# curl vaido.world/test/Metare.bash | bash
+
+
 Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
 
 
