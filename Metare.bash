@@ -9,4 +9,4 @@ curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/X
 tar --extract --file="XFCE-Meta-Stable.tar.gz" --directory="/Data/Compile/Recipes"
 
 curl vaido.world/gobo/unionfs.bash | bash
-Compile "XFCE-Meta-Stable" --no-dependencies
+Compile "XFCE-Meta-Stable" --logfile /Users/root/Desktop/XFCE-Meta-Stable.log
