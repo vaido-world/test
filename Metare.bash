@@ -1,4 +1,4 @@
-Compile "abcdefghijklmnopqrstuvwxyz"
+Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
 
 
 
