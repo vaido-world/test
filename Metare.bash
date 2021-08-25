@@ -43,6 +43,8 @@ tar --extract --file="XFCE4-Power-Manager.tar.gz" --gzip --verbose
 mv XFCE4-Power-Manager/* "/Data/Compile/Recipes/XFCE4-Power-Manager"
 
 
+# Need a docbook V4.3 that includes removal of docbook config entries before installation.
+
 
 # First Requirement
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
