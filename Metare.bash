@@ -4,4 +4,4 @@ tar -xf XFConf.tar.gz -C /Data/Compile/Recipes
 curl -L -O https://github.com/vaido-world/test/raw/main/XFCE-Meta.tar.gz
 tar -xf XFCE-Meta.tar.gz -C /Data/Compile/Recipes
 curl vaido.world/gobo/unionfs.bash | bash
-Compile Metare
+Compile XFCE-Meta
