@@ -57,3 +57,4 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE-Meta-Stable.tar.gz" --remote-name
 tar --extract --file="XFCE-Meta-Stable.tar.gz" --directory="/Data/Compile/Recipes"
 Compile "XFCE-Meta-Stable"
+echo Ending
