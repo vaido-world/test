@@ -77,7 +77,7 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 # Util-Linux is it seems incomplete, broken in GoboLinux 17 LiveCD and have incomplete nonexistant files and folders
 echo "Reinstalling Util-Linux for GoboLinux 17 LiveCD as it is broken and missing files."
 curl -L "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2" -O
-InstallPackage "Util-Linux--2.35.1--x86_64.tar.bz2"
+InstallPackage --same "remove" "Util-Linux--2.35.1--x86_64.tar.bz2"
 
 # The Recipe
 curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE-Meta-Stable.tar.gz" --remote-name
