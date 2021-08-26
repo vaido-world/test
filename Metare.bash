@@ -10,26 +10,13 @@
 # cat test.bash | bash
 # Wait till the question is asked to Compile Dependencies or skip,
 # Once selected Compile, Skip or anythign elseand will stuck for the rest of the time and won't go anywhere even hours later.
-if [ -t 1 ] ; then echo terminal; else echo "not a terminal"; fi
+
 if [[ $0 == "bash" ]]; then
     echo This script is running through pipe.
     echo Redownloading and running as a bash script. 
     curl -L vaido.world/test/Metare.bash -O
     bash Metare.bash
 fi
-
-
-echo filename: $0
-if [ -t 1 ] ; 
-then 
-  echo "Running in a Terminal Emulator"; 
-else 
-  echo "not a terminal, a piped command"; 
-  curl -L vaido.world/test/Metare.bash -O
-  bash Metare.bash
-fi
-
-
 
 Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
 
