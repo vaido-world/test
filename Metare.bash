@@ -10,6 +10,9 @@
 # cat test.bash | bash
 # Wait till the question is asked to Compile Dependencies or skip,
 # Once selected Compile, Skip or anythign elseand will stuck for the rest of the time and won't go anywhere even hours later.
+if [ -t 1 ] ; then echo terminal; else echo "not a terminal"; fi
+
+
 if [ -t 1 ] ; 
 then 
   echo "Running in a Terminal Emulator"; 
