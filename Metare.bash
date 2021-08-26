@@ -64,6 +64,7 @@ mv XFCE4-Power-Manager/* "/Data/Compile/Recipes/XFCE4-Power-Manager"
 
 
 # Need a docbook V4.3 that includes removal of docbook config entries before installation.
+echo "Applying DocBook fix for GoboLinux 17 LiveCD, caused by GoboLinux maintainers"
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
