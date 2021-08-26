@@ -74,7 +74,7 @@ bash  /Programs/DocBook-XML-DTD/4.5/Resources/PostInstall
 InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
 
-# Util-Linux is incomplete, broken in GoboLinux 17 LiveCD and have incomplete nonexistant files and  folders
+# Util-Linux is it seems incomplete, broken in GoboLinux 17 LiveCD and have incomplete nonexistant files and folders
 echo Reinstalling Util-Linux for GoboLinux 17 LiveCD as it is broken and missing files.
 curl -L "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2" -O
 InstallPackage "Util-Linux--2.35.1--x86_64.tar.bz2"
