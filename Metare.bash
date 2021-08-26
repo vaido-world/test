@@ -12,7 +12,7 @@
 # Once selected Compile, Skip or anythign elseand will stuck for the rest of the time and won't go anywhere even hours later.
 if [ -t 1 ] ; then echo terminal; else echo "not a terminal"; fi
 
-
+echo filename: $0
 if [ -t 1 ] ; 
 then 
   echo "Running in a Terminal Emulator"; 
