@@ -14,7 +14,7 @@
 if [[ $0 == "bash" ]]; then
     echo This script is running through pipe.
     echo Redownloading and running as a bash script. 
-    curl -L vaido.world/test/Metare.bash -O
+    curl -L "vaido.world/test/Metare.bash" -O
     bash "Metare.bash"
 fi
 
