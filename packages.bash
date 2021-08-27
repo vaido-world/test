@@ -5,7 +5,7 @@ InstallPackage "https://github.com/vaido-world/test/raw/main/XFCE-Meta-Stable--4
 
 InstallPackage "https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/XFCE4-Screenshooter/XFCE4-Screenshooter--1.8.99--x86_64.tar.bz2"
 
-InstallPackage "https://github.com/vaido-world/XFCE4-GoboLinux-Future/blob/main/XFCE4-Terminal/VTE--0.57.90--x86_64.tar.bz2"
+InstallPackage "https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/XFCE4-Terminal/VTE--0.57.90--x86_64.tar.bz2"
 InstallPackage "https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/XFCE4-Terminal/XFCE4-Terminal--0.8.9--x86_64.tar.bz2"
 
 InstallPackage "https://github.com/vaido-world/XFCE4-GoboLinux-Future/raw/main/Mousepad/GtkSourceView--3.22.0--x86_64.tar.bz2"
