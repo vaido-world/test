@@ -1,24 +1,33 @@
 root@LiveCD ~]curl vaido.world/test/Metare.bash | bash
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  3946  100  3946    0     0  24662      0 --:--:-- --:--:-- --:--:-- 24817
+100  4351  100  4351    0     0  20620      0 --:--:-- --:--:-- --:--:-- 20719
 This script is running through pipe.
 Redownloading and running as a bash script instead of piping to bash shell.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  3946  100  3946    0     0  91767      0 --:--:-- --:--:-- --:--:-- 89681
+100  4351  100  4351    0     0    98k      0 --:--:-- --:--:-- --:--:-- 98886
+Compile: Initializing recipes repository
+Cloning into '/Data/Compile/Recipes'...
+remote: Enumerating objects: 205424, done.
+remote: Counting objects: 100% (430/430), done.
+remote: Compressing objects: 100% (336/336), done.
+remote: Total 205424 (delta 128), reused 300 (delta 69), pack-reused 204994
+Receiving objects: 100% (205424/205424), 43.81 MiB | 12.82 MiB/s, done.
+Resolving deltas: 100% (58335/58335), done.
+Updating files: 100% (58046/58046), done.
 Already up to date.
 Compile: Could not find a recipe for aRandomNameToTriggerDownloadOfRecipesFromGithub
 
 Compile: Did you mean this? XFCE4-Trigger-Launcher
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   152  100   152    0     0    496      0 --:--:-- --:--:-- --:--:--   496
-100   848  100   848    0     0   1363      0 --:--:-- --:--:-- --:--:--  1363
+100   152  100   152    0     0    577      0 --:--:-- --:--:-- --:--:--   577
+100   848  100   848    0     0   1573      0 --:--:-- --:--:-- --:--:--  1573
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   149  100   149    0     0    473      0 --:--:-- --:--:-- --:--:--   471
-100   833  100   833    0     0   1379      0 --:--:-- --:--:-- --:--:--  1379
+100   149  100   149    0     0    522      0 --:--:-- --:--:-- --:--:--   520
+100   833  100   833    0     0   1328      0 --:--:-- --:--:-- --:--:--  1328
 EXO/
 EXO/0.12.8/
 EXO/0.12.8/Resources/
@@ -28,8 +37,8 @@ EXO/0.12.8/Resources/BuildDependencies
 EXO/0.12.8/Recipe
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   157  100   157    0     0    471      0 --:--:-- --:--:-- --:--:--   471
-100   921  100   921    0     0   1519      0 --:--:-- --:--:-- --:--:--  5005
+100   157  100   157    0     0    548      0 --:--:-- --:--:-- --:--:--   548
+100   921  100   921    0     0   1610      0 --:--:-- --:--:-- --:--:-- 11370
 XFCE4-Panel/
 XFCE4-Panel/4.14.0/
 XFCE4-Panel/4.14.0/Recipe
@@ -39,8 +48,8 @@ XFCE4-Panel/4.14.0/Resources/Dependencies
 XFCE4-Panel/4.14.0/Resources/Description
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   160  100   160    0     0    498      0 --:--:-- --:--:-- --:--:--   498
-100  1389  100  1389    0     0   2262      0 --:--:-- --:--:-- --:--:--  2262
+100   160    0   160    0     0    577      0 --:--:-- --:--:-- --:--:--   577
+100  1389  100  1389    0     0   2407      0 --:--:-- --:--:-- --:--:--  2407
 XFCE4-Settings/
 XFCE4-Settings/4.14.0/
 XFCE4-Settings/4.14.0/Resources/
@@ -50,8 +59,8 @@ XFCE4-Settings/4.14.0/Resources/BuildDependencies
 XFCE4-Settings/4.14.0/Recipe
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   159  100   159    0     0    487      0 --:--:-- --:--:-- --:--:--   487
-100   854  100   854    0     0   1347      0 --:--:-- --:--:-- --:--:--  1347
+100   159  100   159    0     0    571      0 --:--:-- --:--:-- --:--:--   571
+100   854  100   854    0     0   1575      0 --:--:-- --:--:-- --:--:--  3543
 XFCE4-Session/
 XFCE4-Session/4.14.0/
 XFCE4-Session/4.14.0/Resources/
@@ -61,8 +70,8 @@ XFCE4-Session/4.14.0/Resources/BuildDependencies
 XFCE4-Session/4.14.0/Recipe
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   155  100   155    0     0    495      0 --:--:-- --:--:-- --:--:--   495
-100   982  100   982    0     0   1607      0 --:--:-- --:--:-- --:--:-- 10559
+100   155  100   155    0     0    545      0 --:--:-- --:--:-- --:--:--   545
+100   982  100   982    0     0   1741      0 --:--:-- --:--:-- --:--:--  1741
 XFDesktop/
 XFDesktop/4.14.1/
 XFDesktop/4.14.1/Resources/
@@ -72,8 +81,8 @@ XFDesktop/4.14.1/Resources/BuildDependencies
 XFDesktop/4.14.1/Recipe
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   151  100   151    0     0    473      0 --:--:-- --:--:-- --:--:--   473
-100   808  100   808    0     0   1313      0 --:--:-- --:--:-- --:--:--  1313
+100   151  100   151    0     0    545      0 --:--:-- --:--:-- --:--:--   543
+100   808  100   808    0     0   1482      0 --:--:-- --:--:-- --:--:--  1482
 XFWM4/
 XFWM4/4.14.0/
 XFWM4/4.14.0/Recipe
@@ -83,8 +92,8 @@ XFWM4/4.14.0/Resources/Dependencies
 XFWM4/4.14.0/Resources/Description
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   165  100   165    0     0    632      0 --:--:-- --:--:-- --:--:--   632
-100   604  100   604    0     0   1135      0 --:--:-- --:--:-- --:--:--  1135
+100   165  100   165    0     0    527      0 --:--:-- --:--:-- --:--:--   527
+100   604  100   604    0     0   1048      0 --:--:-- --:--:-- --:--:--  1048
 XFCE4-Power-Manager/
 XFCE4-Power-Manager/1.6.5/
 XFCE4-Power-Manager/1.6.5/Recipe
@@ -92,37 +101,133 @@ XFCE4-Power-Manager/1.6.5/Resources/
 XFCE4-Power-Manager/1.6.5/Resources/Dependencies
 Applying DocBook fix for GoboLinux 17 LiveCD, caused by GoboLinux maintainers
 InstallPackage: Downloading package to /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
---2021-08-26 19:12:40--  https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+--2021-08-27 11:48:51--  https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
 Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
 Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 190327 (186K) [application/x-tar]
 Saving to: ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’
 
-/Data/Variable/tmp/ 100%[=================>] 185.87K   351KB/s    in 0.5s    
+/Data/Variable/tmp/ 100%[=================>] 185.87K   330KB/s    in 0.6s    
 
-2021-08-26 19:12:42 (351 KB/s) - ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’ saved [190327/190327]
+2021-08-27 11:48:53 (330 KB/s) - ‘/Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2’ saved [190327/190327]
 
-InstallPackage: Not attempting to install Fuse over same version.
+InstallPackage: Installing Fuse, version 2.9.7.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: Current and default settings are different
+
+ 1	del: Settings/fuse.conf
+ 2	new: 2.9.7/Resources/Defaults/Settings/init.d/fuse
+ 3	new: 2.9.7/Resources/Defaults/Settings/udev/rules.d/99-fuse.rules
+
+UpdateSettings: Quick-updating settings in /Programs/Fuse
+UpdateSettings: Will not use hints as ruby is not installed, or is not in your path.
+UpdateSettings: Cannot parse hints file.
+UpdateSettings: auto: Not deleting Settings/fuse.conf
+UpdateSettings: auto: Using 2.9.7/Resources/Defaults/Settings/init.d/fuse
+UpdateSettings: auto: Using 2.9.7/Resources/Defaults/Settings/udev/rules.d/99-fuse.rules
+SymlinkProgram: Symlinking Fuse 2.9.7.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 9 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
 InstallPackage: Removing downloaded package /Data/Variable/tmp/Fuse--2.9.7--x86_64.tar.bz2.
 InstallPackage: Downloading package to /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
---2021-08-26 19:12:44--  https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+--2021-08-27 11:49:08--  https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
 Resolving gobolinux.org (gobolinux.org)... 69.163.217.231
 Connecting to gobolinux.org (gobolinux.org)|69.163.217.231|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 50835 (50K) [application/x-tar]
 Saving to: ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’
 
-/Data/Variable/tmp/ 100%[=================>]  49.64K   137KB/s    in 0.4s    
+/Data/Variable/tmp/ 100%[=================>]  49.64K   143KB/s    in 0.3s    
 
-2021-08-26 19:12:45 (137 KB/s) - ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’ saved [50835/50835]
+2021-08-27 11:49:09 (143 KB/s) - ‘/Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2’ saved [50835/50835]
 
-InstallPackage: Not attempting to install UnionFS-Fuse over same version.
+InstallPackage: Installing UnionFS-Fuse, version 2.1.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking UnionFS-Fuse 2.1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 2 files.
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 1 file.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
 InstallPackage: Removing downloaded package /Data/Variable/tmp/UnionFS-Fuse--2.1--x86_64.tar.bz2.
+Reinstalling Util-Linux for GoboLinux 17 LiveCD as it is broken and missing files.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   162  100   162    0     0    506      0 --:--:-- --:--:-- --:--:--   507
-100  1568  100  1568    0     0   2461      0 --:--:-- --:--:-- --:--:--  2461
+100   172  100   172    0     0    207      0 --:--:-- --:--:-- --:--:--   207
+100 4540k  100 4540k    0     0  2963k      0  0:00:01  0:00:01 --:--:-- 25.3M
+InstallPackage: Making a safe copy of installed version -
+InstallPackage: Installing Util-Linux, version 2.35.1.
+InstallPackage: Uncompressing to /Programs...
+UpdateSettings: No settings exist
+SymlinkProgram: Symlinking Util-Linux 2.35.1.
+SymlinkProgram: Symlinking global settings...
+SymlinkProgram: Symlinking tasks...
+SymlinkProgram: Storing variable files...
+SymlinkProgram: Symlinking libraries...
+SymlinkProgram: Processed 26 files.
+SymlinkProgram: Updating library database (ldconfig)...
+SymlinkProgram: Correcting directory references...
+SymlinkProgram: Symlinking headers...
+SymlinkProgram: Processed 5 files.
+SymlinkProgram: Symlinking info...
+SymlinkProgram: Updating info dir...
+SymlinkProgram: Symlinking manuals...
+SymlinkProgram: Processed 57 files.
+SymlinkProgram: Processed 13 files.
+SymlinkProgram: Processed 3 files.
+SymlinkProgram: Processed 58 files.
+SymlinkProgram: Symlinking executables...
+SymlinkProgram: Processed 115 files.
+SymlinkProgram: Symlinking wrappers...
+SymlinkProgram: Symlinking libexec..
+SymlinkProgram: Symlinking shared...
+SymlinkProgram: Processed 260 files.
+SymlinkProgram: Removing unused directories...
+SymlinkProgram: Done.
+InstallPackage: Checking dependencies...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   162  100   162    0     0    525      0 --:--:-- --:--:-- --:--:--   527
+100  2120  100  2120    0     0   3354      0 --:--:-- --:--:-- --:--:--  3354
 Already up to date.
 Compile: Checking dependencies...
 
@@ -144,10 +249,6 @@ CheckDependencies: LibGUdev is not installed.
 CheckDependencies: Compile recipe for LibGUdev 234 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
 CheckDependencies: LibGUdev is not installed.
 CheckDependencies: Compile recipe for LibGUdev 234 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
-CheckDependencies: LibGUdev is not installed.
-CheckDependencies: Compile recipe for LibGUdev 234 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
-CheckDependencies: GTK-Doc is not installed.
-CheckDependencies: Compile recipe for GTK-Doc 1.33.0 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
 CheckDependencies: GTK-Doc is not installed.
 CheckDependencies: Compile recipe for GTK-Doc 1.33.0 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip All
 CheckDependencies: GTK-Doc is not installed.
@@ -156,16 +257,16 @@ CheckDependencies: GTK-Doc is not installed.
 CheckDependencies: Compile recipe for GTK-Doc 1.33.0 or skip this dependency? [C]Compile/[S]Skip/[CA]Compile All/[SA]Skip AllAlready up to date.
 Compile: Compiling PCRE2 version 10.35.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:12:56--  https://ftp.pcre.org/pub/pcre/pcre2-10.35.zip
+--2021-08-27 11:49:49--  https://ftp.pcre.org/pub/pcre/pcre2-10.35.zip
 Resolving ftp.pcre.org (ftp.pcre.org)... 131.111.8.88
 Connecting to ftp.pcre.org (ftp.pcre.org)|131.111.8.88|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 2557406 (2.4M) [application/zip]
 Saving to: 'pcre2-10.35.zip'
 
-pcre2-10.35.zip     100%[=================>]   2.44M  6.25MB/s    in 0.4s    
+pcre2-10.35.zip     100%[=================>]   2.44M  3.57MB/s    in 0.7s    
 
-2021-08-26 19:12:57 (6.25 MB/s) - 'pcre2-10.35.zip' saved [2557406/2557406]
+2021-08-27 11:49:50 (3.57 MB/s) - 'pcre2-10.35.zip' saved [2557406/2557406]
 
 Compile: Unpacking file /Data/Compile/Archives/pcre2-10.35.zip...
 
@@ -560,30 +661,30 @@ GenBuildInformation: Generating dependency report. Please wait:  \
 Already up to date.
 Compile: Compiling LibWNCK version 3.36.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:18:53--  http://ftp.gnome.org/pub/gnome/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
-Resolving ftp.gnome.org (ftp.gnome.org)... 8.43.85.13, 8.43.85.14, 8.43.85.29, ...
-Connecting to ftp.gnome.org (ftp.gnome.org)|8.43.85.13|:80... connected.
+--2021-08-27 11:55:45--  http://ftp.gnome.org/pub/gnome/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
+Resolving ftp.gnome.org (ftp.gnome.org)... 8.43.85.29, 8.43.85.14, 8.43.85.13, ...
+Connecting to ftp.gnome.org (ftp.gnome.org)|8.43.85.29|:80... connected.
 HTTP request sent, awaiting response... 302 Found
 Location: https://ftp.gnome.org/pub/gnome/sources/libwnck/3.36/libwnck-3.36.0.tar.xz [following]
---2021-08-26 19:18:54--  https://ftp.gnome.org/pub/gnome/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
-Connecting to ftp.gnome.org (ftp.gnome.org)|8.43.85.13|:443... connected.
+--2021-08-27 11:55:45--  https://ftp.gnome.org/pub/gnome/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
+Connecting to ftp.gnome.org (ftp.gnome.org)|8.43.85.29|:443... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
 Location: https://download.gnome.org/sources/libwnck/3.36/libwnck-3.36.0.tar.xz [following]
---2021-08-26 19:18:54--  https://download.gnome.org/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
-Resolving download.gnome.org (download.gnome.org)... 8.43.85.14, 8.43.85.29, 8.43.85.13, ...
-Connecting to download.gnome.org (download.gnome.org)|8.43.85.14|:443... connected.
+--2021-08-27 11:55:46--  https://download.gnome.org/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
+Resolving download.gnome.org (download.gnome.org)... 8.43.85.29, 8.43.85.14, 8.43.85.13, ...
+Connecting to download.gnome.org (download.gnome.org)|8.43.85.29|:443... connected.
 HTTP request sent, awaiting response... 302 Found
 Location: https://ftp.acc.umu.se/pub/GNOME/sources/libwnck/3.36/libwnck-3.36.0.tar.xz [following]
---2021-08-26 19:18:55--  https://ftp.acc.umu.se/pub/GNOME/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
-Resolving ftp.acc.umu.se (ftp.acc.umu.se)... 194.71.11.163, 194.71.11.173, 194.71.11.165, ...
-Connecting to ftp.acc.umu.se (ftp.acc.umu.se)|194.71.11.163|:443... connected.
+--2021-08-27 11:55:46--  https://ftp.acc.umu.se/pub/GNOME/sources/libwnck/3.36/libwnck-3.36.0.tar.xz
+Resolving ftp.acc.umu.se (ftp.acc.umu.se)... 194.71.11.165, 194.71.11.173, 194.71.11.163, ...
+Connecting to ftp.acc.umu.se (ftp.acc.umu.se)|194.71.11.165|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 447760 (437K) [application/x-xz]
 Saving to: 'libwnck-3.36.0.tar.xz'
 
-libwnck-3.36.0.tar. 100%[=================>] 437.27K  1.58MB/s    in 0.3s    
+libwnck-3.36.0.tar. 100%[=================>] 437.27K  1.55MB/s    in 0.3s    
 
-2021-08-26 19:18:56 (1.58 MB/s) - 'libwnck-3.36.0.tar.xz' saved [447760/447760]
+2021-08-27 11:55:47 (1.55 MB/s) - 'libwnck-3.36.0.tar.xz' saved [447760/447760]
 
 Compile: Unpacking file /Data/Compile/Archives/libwnck-3.36.0.tar.xz...
 The Meson build system
@@ -618,7 +719,7 @@ Build targets in project: 18
 
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /usr/bin/ninja
 [41/42] Generating Wnck-3.0.gir with a custom command.
-g-ir-scanner: link: gcc -pthread -o /Data/Compile/Sources/libwnck-3.36.0/_build/tmp-introspectygqa4uyn/Wnck-3.0 -O2 -fomit-frame-pointer -pipe /Data/Compile/Sources/libwnck-3.36.0/_build/tmp-introspectygqa4uyn/Wnck-3.0.o -L. -Wl,-rpath,. -Wl,--no-as-needed -L/Data/Compile/Sources/libwnck-3.36.0/_build/libwnck -Wl,-rpath,/Data/Compile/Sources/libwnck-3.36.0/_build/libwnck -lwnck-3 -lm -lcairo -lXext -lXrender -lX11 -lglib-2.0 -lgobject-2.0 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lstartup-notification-1 -lXRes -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+g-ir-scanner: link: gcc -pthread -o /Data/Compile/Sources/libwnck-3.36.0/_build/tmp-introspect5dt8twdq/Wnck-3.0 -O2 -fomit-frame-pointer -pipe /Data/Compile/Sources/libwnck-3.36.0/_build/tmp-introspect5dt8twdq/Wnck-3.0.o -L. -Wl,-rpath,. -Wl,--no-as-needed -L/Data/Compile/Sources/libwnck-3.36.0/_build/libwnck -Wl,-rpath,/Data/Compile/Sources/libwnck-3.36.0/_build/libwnck -lwnck-3 -lm -lcairo -lXext -lXrender -lX11 -lglib-2.0 -lgobject-2.0 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgdk_pixbuf-2.0 -lgio-2.0 -lstartup-notification-1 -lXRes -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
 [42/42] Generating Wnck-3.0.typelib with a custom command.
 Compile: Asserting that requirements are met...
 SandboxInstall: unionfs-fuse is available. Using UnionSandbox.
@@ -769,16 +870,16 @@ GenBuildInformation: Generating dependency report. Please wait:  |
 Already up to date.
 Compile: Compiling GTK-Doc version 1.33.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:19:37--  https://gitlab.gnome.org/GNOME/gtk-doc/-/archive/1.33.0/gtk-doc-1.33.0.tar.bz2
+--2021-08-27 11:56:31--  https://gitlab.gnome.org/GNOME/gtk-doc/-/archive/1.33.0/gtk-doc-1.33.0.tar.bz2
 Resolving gitlab.gnome.org (gitlab.gnome.org)... 8.43.85.27, 2620:52:3:1:5054:ff:fe8f:413d
 Connecting to gitlab.gnome.org (gitlab.gnome.org)|8.43.85.27|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [application/octet-stream]
 Saving to: 'gtk-doc-1.33.0.tar.bz2'
 
-gtk-doc-1.33.0.tar.     [   <=>            ] 634.31K  1.04MB/s    in 0.6s    
+gtk-doc-1.33.0.tar.     [   <=>            ] 634.31K  1.05MB/s    in 0.6s    
 
-2021-08-26 19:19:39 (1.04 MB/s) - 'gtk-doc-1.33.0.tar.bz2' saved [649531]
+2021-08-27 11:56:32 (1.05 MB/s) - 'gtk-doc-1.33.0.tar.bz2' saved [649531]
 
 Compile: Unpacking file /Data/Compile/Archives/gtk-doc-1.33.0.tar.bz2...
 autoreconf: Entering directory `.'
@@ -1482,7 +1583,7 @@ GenBuildInformation: Generating dependency report. Please wait:  /
 Already up to date.
 Compile: Compiling LibGUdev version 234.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:20:52--  https://gitlab.gnome.org/GNOME/libgudev/-/archive/234/libgudev-234.tar.bz2
+--2021-08-27 11:57:22--  https://gitlab.gnome.org/GNOME/libgudev/-/archive/234/libgudev-234.tar.bz2
 Resolving gitlab.gnome.org (gitlab.gnome.org)... 8.43.85.27, 2620:52:3:1:5054:ff:fe8f:413d
 Connecting to gitlab.gnome.org (gitlab.gnome.org)|8.43.85.27|:443... connected.
 HTTP request sent, awaiting response... 200 OK
@@ -1491,7 +1592,7 @@ Saving to: 'libgudev-234.tar.bz2'
 
 libgudev-234.tar.bz     [ <=>              ]  31.29K  --.-KB/s    in 0.1s    
 
-2021-08-26 19:20:53 (268 KB/s) - 'libgudev-234.tar.bz2' saved [32036]
+2021-08-27 11:57:23 (252 KB/s) - 'libgudev-234.tar.bz2' saved [32036]
 
 Compile: Unpacking file /Data/Compile/Archives/libgudev-234.tar.bz2...
 *** WARNING: I am going to run 'configure' with no arguments.
@@ -1859,16 +1960,16 @@ GenBuildInformation: Generating dependency report. Please wait:  \
 Already up to date.
 Compile: Compiling UPower version 0.99.11.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:22:02--  https://upower.freedesktop.org/releases/upower-0.99.11.tar.xz
+--2021-08-27 11:58:11--  https://upower.freedesktop.org/releases/upower-0.99.11.tar.xz
 Resolving upower.freedesktop.org (upower.freedesktop.org)... 131.252.210.176, 2610:10:20:722:a800:ff:feda:470f
 Connecting to upower.freedesktop.org (upower.freedesktop.org)|131.252.210.176|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 430128 (420K) [application/x-xz]
 Saving to: 'upower-0.99.11.tar.xz'
 
-upower-0.99.11.tar. 100%[=================>] 420.05K   569KB/s    in 0.7s    
+upower-0.99.11.tar.xz         100%[===============================================>] 420.05K   586KB/s    in 0.7s    
 
-2021-08-26 19:22:04 (569 KB/s) - 'upower-0.99.11.tar.xz' saved [430128/430128]
+2021-08-27 11:58:13 (586 KB/s) - 'upower-0.99.11.tar.xz' saved [430128/430128]
 
 Compile: Unpacking file /Data/Compile/Archives/upower-0.99.11.tar.xz...
 
@@ -2528,21 +2629,21 @@ Compile: Checking dependencies for included recipes...
 Already up to date.
 Compile: Compiling LibXFCE4Util version 4.14.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:23:48--  https://archive.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
+--2021-08-27 11:59:50--  https://archive.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://archive.be.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2 [following]
---2021-08-26 19:23:48--  https://archive.be.xfce.org/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
-Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
-Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2 [following]
+--2021-08-27 11:59:50--  https://xfce.mirror.wearetriple.com/xfce/4.14/src/libxfce4util-4.14.0.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 516358 (504K) [application/x-bzip2]
+Length: 516358 (504K) [application/octet-stream]
 Saving to: 'libxfce4util-4.14.0.tar.bz2'
 
-libxfce4util-4.14.0 100%[=================>] 504.26K  2.24MB/s    in 0.2s    
+libxfce4util-4.14.0.tar. 100%[=================================>] 504.26K  2.88MB/s    in 0.2s    
 
-2021-08-26 19:23:49 (2.24 MB/s) - 'libxfce4util-4.14.0.tar.bz2' saved [516358/516358]
+2021-08-27 11:59:51 (2.88 MB/s) - 'libxfce4util-4.14.0.tar.bz2' saved [516358/516358]
 
 Compile: Unpacking file /Data/Compile/Archives/libxfce4util-4.14.0.tar.bz2...
 
@@ -3122,21 +3223,21 @@ SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFConf version 4.14.1.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:25:05--  https://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
+--2021-08-27 12:00:49--  https://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://archive.be.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2 [following]
---2021-08-26 19:25:05--  https://archive.be.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
-Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
-Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+Location: https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2 [following]
+--2021-08-27 12:00:49--  https://mirror.netcologne.de/xfce/src/xfce/xfconf/4.14/xfconf-4.14.1.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 644804 (630K) [application/x-bzip2]
+Length: 644804 (630K) [application/octet-stream]
 Saving to: 'xfconf-4.14.1.tar.bz2'
 
-xfconf-4.14.1.tar.b 100%[=================>] 629.69K  2.64MB/s    in 0.2s    
+xfconf-4.14.1.tar.bz2    100%[=================================>] 629.69K  --.-KB/s    in 0.1s    
 
-2021-08-26 19:25:06 (2.64 MB/s) - 'xfconf-4.14.1.tar.bz2' saved [644804/644804]
+2021-08-27 12:00:49 (5.12 MB/s) - 'xfconf-4.14.1.tar.bz2' saved [644804/644804]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfconf-4.14.1.tar.bz2 is complete based only on size.
@@ -3895,21 +3996,21 @@ SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling LibXFCE4UI version 4.14.1.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:26:26--  https://archive.xfce.org/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2
+--2021-08-27 12:01:54--  https://archive.xfce.org/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2 [following]
---2021-08-26 19:26:26--  https://xfce.mirror.wearetriple.com/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://mirror.netcologne.de/xfce/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2 [following]
+--2021-08-27 12:01:54--  https://mirror.netcologne.de/xfce/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 756175 (738K) [application/octet-stream]
 Saving to: 'libxfce4ui-4.14.1.tar.bz2'
 
-libxfce4ui-4.14.1.t 100%[=================>] 738.45K  3.70MB/s    in 0.2s    
+libxfce4ui-4.14.1.tar.bz 100%[=================================>] 738.45K  --.-KB/s    in 0.1s    
 
-2021-08-26 19:26:27 (3.70 MB/s) - 'libxfce4ui-4.14.1.tar.bz2' saved [756175/756175]
+2021-08-27 12:01:55 (5.35 MB/s) - 'libxfce4ui-4.14.1.tar.bz2' saved [756175/756175]
 
 Compile: Unpacking file /Data/Compile/Archives/libxfce4ui-4.14.1.tar.bz2...
 
@@ -4708,21 +4809,21 @@ SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling Garcon version 0.6.4.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:28:27--  https://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2
+--2021-08-27 12:03:22--  https://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://archive.be.xfce.org/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2 [following]
---2021-08-26 19:28:27--  https://archive.be.xfce.org/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2
-Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
-Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2 [following]
+--2021-08-27 12:03:22--  https://xfce.mirror.wearetriple.com/src/xfce/garcon/0.6/garcon-0.6.4.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 519744 (508K) [application/x-bzip2]
+Length: 519744 (508K) [application/octet-stream]
 Saving to: 'garcon-0.6.4.tar.bz2'
 
-garcon-0.6.4.tar.bz 100%[=================>] 507.56K  2.25MB/s    in 0.2s    
+garcon-0.6.4.tar.bz2     100%[=================================>] 507.56K  1.53MB/s    in 0.3s    
 
-2021-08-26 19:28:28 (2.25 MB/s) - 'garcon-0.6.4.tar.bz2' saved [519744/519744]
+2021-08-27 12:03:23 (1.53 MB/s) - 'garcon-0.6.4.tar.bz2' saved [519744/519744]
 
 Compile: Unpacking file /Data/Compile/Archives/garcon-0.6.4.tar.bz2...
 
@@ -5418,25 +5519,25 @@ SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling EXO version 0.12.8.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:30:16--  http://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
+--2021-08-27 12:04:43--  http://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:80... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
 Location: https://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2 [following]
---2021-08-26 19:30:16--  https://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
+--2021-08-27 12:04:44--  https://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://mirror.netcologne.de/xfce/src/xfce/exo/0.12/exo-0.12.8.tar.bz2 [following]
---2021-08-26 19:30:16--  https://mirror.netcologne.de/xfce/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
-Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
-Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+Location: https://archive.be.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2 [following]
+--2021-08-27 12:04:44--  https://archive.be.xfce.org/src/xfce/exo/0.12/exo-0.12.8.tar.bz2
+Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
+Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 1342201 (1.3M) [application/octet-stream]
+Length: 1342201 (1.3M) [application/x-bzip2]
 Saving to: 'exo-0.12.8.tar.bz2'
 
-exo-0.12.8.tar.bz2  100%[=================>]   1.28M  5.50MB/s    in 0.2s    
+exo-0.12.8.tar.bz2       100%[=================================>]   1.28M  4.67MB/s    in 0.3s    
 
-2021-08-26 19:30:17 (5.50 MB/s) - 'exo-0.12.8.tar.bz2' saved [1342201/1342201]
+2021-08-27 12:04:44 (4.67 MB/s) - 'exo-0.12.8.tar.bz2' saved [1342201/1342201]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/exo-0.12.8.tar.bz2 is complete based only on size.
@@ -6454,25 +6555,25 @@ SymlinkProgram: Processed 313 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
-UseFlags: Added from distribution flags: dbus, startup_notification, file_monitor
+UseFlags: Added from distribution flags: startup_notification, file_monitor, dbus
 UseFlags: Transformed generic flag file_monitor into fam
 Compile: Compiling Thunar version 1.8.9.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:33:07--  https://archive.xfce.org/xfce/4.14/src/Thunar-1.8.9.tar.bz2
+--2021-08-27 12:07:05--  https://archive.xfce.org/xfce/4.14/src/Thunar-1.8.9.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/xfce/4.14/src/Thunar-1.8.9.tar.bz2 [following]
---2021-08-26 19:33:07--  https://xfce.mirror.wearetriple.com/xfce/4.14/src/Thunar-1.8.9.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://mirror.netcologne.de/xfce/xfce/4.14/src/Thunar-1.8.9.tar.bz2 [following]
+--2021-08-27 12:07:05--  https://mirror.netcologne.de/xfce/xfce/4.14/src/Thunar-1.8.9.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 2375302 (2.3M) [application/octet-stream]
 Saving to: 'Thunar-1.8.9.tar.bz2'
 
-Thunar-1.8.9.tar.bz 100%[=================>]   2.26M  8.56MB/s    in 0.3s    
+Thunar-1.8.9.tar.bz2     100%[=================================>]   2.26M  9.65MB/s    in 0.2s    
 
-2021-08-26 19:33:08 (8.56 MB/s) - 'Thunar-1.8.9.tar.bz2' saved [2375302/2375302]
+2021-08-27 12:07:06 (9.65 MB/s) - 'Thunar-1.8.9.tar.bz2' saved [2375302/2375302]
 
 Compile: Unpacking file /Data/Compile/Archives/Thunar-1.8.9.tar.bz2...
 
@@ -7753,21 +7854,21 @@ SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFCE4-Panel version 4.14.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:39:22--  https://archive.xfce.org/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2
+--2021-08-27 12:13:32--  https://archive.xfce.org/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2 [following]
---2021-08-26 19:39:23--  https://xfce.mirror.wearetriple.com/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://mirror.netcologne.de/xfce/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2 [following]
+--2021-08-27 12:13:32--  https://mirror.netcologne.de/xfce/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.0.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 1291792 (1.2M) [application/octet-stream]
 Saving to: 'xfce4-panel-4.14.0.tar.bz2'
 
-xfce4-panel-4.14.0. 100%[=================>]   1.23M  5.90MB/s    in 0.2s    
+xfce4-panel-4.14.0.tar.b 100%[=================================>]   1.23M  6.68MB/s    in 0.2s    
 
-2021-08-26 19:39:23 (5.90 MB/s) - 'xfce4-panel-4.14.0.tar.bz2' saved [1291792/1291792]
+2021-08-27 12:13:33 (6.68 MB/s) - 'xfce4-panel-4.14.0.tar.bz2' saved [1291792/1291792]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfce4-panel-4.14.0.tar.bz2 is complete based only on size.
@@ -9477,59 +9578,27 @@ SymlinkProgram: Processed 469 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
-Compile: Could not find recipe for XFCE4-Settings 4.14.0.
-Compile: Attempt to create recipe for version 4.14.0?
-Compile: Press Enter to continue or Ctrl-C to cancel.
-Already up to date.
-NewVersion: Recipe found in /Data/Compile/Recipes/XFCE4-Settings/4.14.3
-NewVersion: Creating recipe for XFCE4-Settings 4.14.0 based on 4.14.3.
-NewVersion: Please fill in the 'compileRecipeAuthor' variable in /System/Settings/Compile/Compile.conf
-NewVersion: Downloading source code...
---2021-08-26 19:43:53--  https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2
+Compile: Compiling XFCE4-Settings version 4.14.0.
+Compile: Running without dependency-based namespace (Runner not available).
+--2021-08-27 12:18:27--  https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://mirror.netcologne.de/xfce/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2 [following]
---2021-08-26 19:43:53--  https://mirror.netcologne.de/xfce/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2
-Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
-Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2 [following]
+--2021-08-27 12:18:27--  https://xfce.mirror.wearetriple.com/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 1183972 (1.1M) [application/octet-stream]
 Saving to: 'xfce4-settings-4.14.0.tar.bz2'
 
-xfce4-settings-4.14 100%[=================>]   1.13M  6.40MB/s    in 0.2s    
+xfce4-settings-4.14.0.ta 100%[=================================>]   1.13M  1.89MB/s    in 0.6s    
 
-2021-08-26 19:43:54 (6.40 MB/s) - 'xfce4-settings-4.14.0.tar.bz2' saved [1183972/1183972]
+2021-08-27 12:18:28 (1.89 MB/s) - 'xfce4-settings-4.14.0.tar.bz2' saved [1183972/1183972]
 
-NewVersion: Recipe template for XFCE4-Settings 4.14.0 created
-NewVersion: Printing result (/Data/Compile/Recipes/XFCE4-Settings/4.14.0/Recipe):
-# Recipe (MakeRecipe) for XFCE4-Settings by Philip Pokarowski, on Wed 22 Jul 2020 01:46:01 AM CEST
-compile_version=017-GIT
-url="https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.0.tar.bz2"
-file_size=1183972
-file_md5=dcbc673448e1a816b2c47a7ce0ca13aa
-dir='xfce4-settings-4.14.0'
-recipe_type=configure
-NewVersion: Done
-Compile: Compiling XFCE4-Settings version 4.14.3.
-Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:43:57--  https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.3.tar.bz2
-Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
-Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.3.tar.bz2 [following]
---2021-08-26 19:43:58--  https://xfce.mirror.wearetriple.com/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.3.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 1201308 (1.1M) [application/octet-stream]
-Saving to: 'xfce4-settings-4.14.3.tar.bz2'
-
-xfce4-settings-4.14 100%[=================>]   1.15M  5.36MB/s    in 0.2s    
-
-2021-08-26 19:43:58 (5.36 MB/s) - 'xfce4-settings-4.14.3.tar.bz2' saved [1201308/1201308]
-
-Compile: Unpacking file /Data/Compile/Archives/xfce4-settings-4.14.3.tar.bz2...
+FetchArchive: Warning: no MD5/SHA checksum.
+FetchArchive: Assuming /Data/Compile/Archives/xfce4-settings-4.14.0.tar.bz2 is complete based only on size.
+Compile: Unpacking file /Data/Compile/Archives/xfce4-settings-4.14.0.tar.bz2...
 
 PrepareProgram: Preparing...
 PrepareProgram: Autoconf configure script detected.
@@ -9674,7 +9743,7 @@ checking for dcgettext... yes
 checking if msgfmt accepts -c... yes
 checking for gmsgfmt... (cached) /usr/bin/msgfmt
 checking for xgettext... (cached) /usr/bin/xgettext
-checking for catalogs to be installed...  am ar ast be be@tarask bg bn ca cs da de el en_AU en_CA en_GB es eu fi fr gl he hr hu hy_AM id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW
+checking for catalogs to be installed...  am ar ast be bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu hy_AM id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW
 checking for bind_textdomain_codeset... (cached) yes
 checking for locales directory... ${datarootdir}/locale
 checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
@@ -9829,91 +9898,91 @@ Build Configuration:
 * Mime settings (gio-unix):  yes
 
 /Programs/Make/4.3/bin/make  all-recursive
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
 Making all in common
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
   CC       libxfce4_settings_la-display-name.lo
   CC       libxfce4_settings_la-display-profiles.lo
   CC       libxfce4_settings_la-edid-parse.lo
   CC       libxfce4_settings_la-xfce-randr.lo
   CCLD     libxfce4-settings.la
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
 Making all in dialogs
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 Making all in appearance-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
 /Programs/Make/4.3/bin/make  all-am
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
   CC       xfce4_appearance_settings-main.o
   CCLD     xfce4-appearance-settings
   ITMRG  xfce-ui-settings.desktop
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
 Making all in accessibility-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
 /Programs/Make/4.3/bin/make  all-am
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
   CC       xfce4_accessibility_settings-main.o
   CCLD     xfce4-accessibility-settings
   CC       xfce4_find_cursor-find-cursor.o
   CCLD     xfce4-find-cursor
   ITMRG  xfce4-accessibility-settings.desktop
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
 Making all in keyboard-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
 /Programs/Make/4.3/bin/make  all-am
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
   CC       xfce4_keyboard_settings-main.o
   CC       xfce4_keyboard_settings-xfce-keyboard-settings.o
   CC       xfce4_keyboard_settings-command-dialog.o
   CCLD     xfce4-keyboard-settings
   ITMRG  xfce-keyboard-settings.desktop
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
 Making all in mouse-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
 /Programs/Make/4.3/bin/make  all-am
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
   CC       xfce4_mouse_settings-main.o
   CCLD     xfce4-mouse-settings
   ITMRG  xfce-mouse-settings.desktop
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
 Making all in display-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
 /Programs/Make/4.3/bin/make  all-am
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
   CC       xfce4_display_settings-main.o
   CC       xfce4_display_settings-scrollarea.o
   CC       xfce4_display_settings-foo-marshal.o
   CCLD     xfce4-display-settings
   ITMRG  xfce-display-settings.desktop
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
 Making all in mime-settings
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
   CC       xfce4_mime_settings-main.o
   CC       xfce4_mime_settings-xfce-mime-chooser.o
   CC       xfce4_mime_settings-xfce-mime-window.o
   CCLD     xfce4-mime-settings
   ITMRG  xfce4-mime-settings.desktop
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 make[3]: Nothing to be done for 'all-am'.
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 Making all in xfce4-settings-manager
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
   CC       xfce4_settings_manager-main.o
   CC       xfce4_settings_manager-xfce-settings-manager-dialog.o
   CCLD     xfce4-settings-manager
   ITMRG  xfce-settings-manager.desktop
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
 Making all in xfce4-settings-editor
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
 /Programs/Make/4.3/bin/make  all-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
   CC       xfce4_settings_editor-xfce-settings-marshal.o
   CC       xfce4_settings_editor-main.o
   CC       xfce4_settings_editor-xfce-settings-cell-renderer.o
@@ -9971,10 +10040,10 @@ In file included from /usr/include/glib-2.0/glib/giochannel.h:33,
   CC       xfce4_settings_editor-xfce-settings-prop-dialog.o
   CCLD     xfce4-settings-editor
   ITMRG  xfce4-settings-editor.desktop
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
 Making all in xfsettingsd
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
   CC       xfsettingsd-main.o
   CC       xfsettingsd-accessibility.o
   CC       xfsettingsd-debug.o
@@ -10045,14 +10114,13 @@ In file included from /usr/include/glib-2.0/glib.h:88,
   CC       xfsettingsd-displays-upower.o
   CCLD     xfsettingsd
   ITMRG  xfsettingsd.desktop
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
 Making all in po
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/po'
   MSGFMT am.gmo
   MSGFMT ar.gmo
   MSGFMT ast.gmo
   MSGFMT be.gmo
-  MSGFMT be@tarask.gmo
   MSGFMT bg.gmo
   MSGFMT bn.gmo
   MSGFMT ca.gmo
@@ -10061,7 +10129,6 @@ make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
   MSGFMT de.gmo
   MSGFMT el.gmo
   MSGFMT en_AU.gmo
-  MSGFMT en_CA.gmo
   MSGFMT en_GB.gmo
   MSGFMT es.gmo
   MSGFMT eu.gmo
@@ -10108,27 +10175,27 @@ make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
   MSGFMT zh_CN.gmo
   MSGFMT zh_HK.gmo
   MSGFMT zh_TW.gmo
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/po'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
 Compile: Asserting that requirements are met...
 SandboxInstall: unionfs-fuse is available. Using UnionSandbox.
 SandboxInstall: Installing XFCE-Meta-Stable...
 Making install in common
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
 make[2]: Nothing to be done for 'install-exec-am'.
 make[2]: Nothing to be done for 'install-data-am'.
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/common'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/common'
 Making install in dialogs
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 Making install in appearance-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
 /Programs/Make/4.3/bin/make  install-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-appearance-settings '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-appearance-settings /usr/bin/xfce4-appearance-settings
@@ -10136,54 +10203,54 @@ libtool: install: /usr/bin/install -c xfce4-appearance-settings /usr/bin/xfce4-a
  /usr/bin/install -c -m 644 xfce-ui-settings.desktop '/usr/share/applications'
  /usr/bin/mkdir -p '/usr/lib/xfce4/settings'
  /usr/bin/install -c appearance-install-theme '/usr/lib/xfce4/settings'
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/appearance-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/appearance-settings'
 Making install in accessibility-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
 /Programs/Make/4.3/bin/make  install-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-accessibility-settings xfce4-find-cursor '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-accessibility-settings /usr/bin/xfce4-accessibility-settings
 libtool: install: /usr/bin/install -c xfce4-find-cursor /usr/bin/xfce4-find-cursor
  /usr/bin/mkdir -p '/usr/share/applications'
  /usr/bin/install -c -m 644 xfce4-accessibility-settings.desktop '/usr/share/applications'
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/accessibility-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/accessibility-settings'
 Making install in keyboard-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
 /Programs/Make/4.3/bin/make  install-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-keyboard-settings '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-keyboard-settings /usr/bin/xfce4-keyboard-settings
  /usr/bin/mkdir -p '/usr/share/applications'
  /usr/bin/install -c -m 644 xfce-keyboard-settings.desktop '/usr/share/applications'
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/keyboard-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/keyboard-settings'
 Making install in mouse-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
 /Programs/Make/4.3/bin/make  install-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-mouse-settings '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-mouse-settings /usr/bin/xfce4-mouse-settings
  /usr/bin/mkdir -p '/usr/share/applications'
  /usr/bin/install -c -m 644 xfce-mouse-settings.desktop '/usr/share/applications'
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mouse-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mouse-settings'
 Making install in display-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
 /Programs/Make/4.3/bin/make  install-am
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
-make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
+make[4]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-display-settings '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-display-settings /usr/bin/xfce4-display-settings
@@ -10191,29 +10258,29 @@ libtool: install: /usr/bin/install -c xfce4-display-settings /usr/bin/xfce4-disp
  /usr/bin/install -c -m 644 xfce-display-settings.desktop '/usr/share/applications'
  /usr/bin/mkdir -p '/usr/share/icons/hicolor/128x128/devices'
  /usr/bin/install -c -m 644 xfce-display-extend.png xfce-display-external.png xfce-display-internal.png xfce-display-mirror.png xfce-display-profile.png '/usr/share/icons/hicolor/128x128/devices'
-make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/display-settings'
+make[4]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/display-settings'
 Making install in mime-settings
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-mime-settings '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-mime-settings /usr/bin/xfce4-mime-settings
  /usr/bin/mkdir -p '/usr/share/applications'
  /usr/bin/install -c -m 644 xfce4-mime-settings.desktop '/usr/share/applications'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs/mime-settings'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs/mime-settings'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 make[3]: Nothing to be done for 'install-exec-am'.
 make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/dialogs'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/dialogs'
 Making install in xfce4-settings-manager
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-settings-manager '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-settings-manager /usr/bin/xfce4-settings-manager
@@ -10221,24 +10288,24 @@ libtool: install: /usr/bin/install -c xfce4-settings-manager /usr/bin/xfce4-sett
  /usr/bin/install -c -m 644 xfce-settings-manager.desktop '/usr/share/applications'
  /usr/bin/mkdir -p '/System/Settings/xdg/menus'
  /usr/bin/install -c -m 644 xfce-settings-manager.menu '/System/Settings/xdg/menus'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-manager'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-manager'
 Making install in xfce4-settings-editor
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
 /Programs/Make/4.3/bin/make  install-am
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
-make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
+make[3]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfce4-settings-editor '/usr/bin'
 libtool: install: /usr/bin/install -c xfce4-settings-editor /usr/bin/xfce4-settings-editor
  /usr/bin/mkdir -p '/usr/share/applications'
  /usr/bin/install -c -m 644 xfce4-settings-editor.desktop '/usr/share/applications'
-make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfce4-settings-editor'
+make[3]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfce4-settings-editor'
 Making install in xfsettingsd
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
  /usr/bin/mkdir -p '/usr/bin'
   /usr/bin/libtool   --mode=install /usr/bin/install -c xfsettingsd '/usr/bin'
 libtool: install: /usr/bin/install -c xfsettingsd /usr/bin/xfsettingsd
@@ -10246,14 +10313,14 @@ libtool: install: /usr/bin/install -c xfsettingsd /usr/bin/xfsettingsd
  /usr/bin/install -c -m 644 xfsettingsd.desktop '/System/Settings/xdg/autostart'
  /usr/bin/mkdir -p '/System/Settings/xdg/xfce4/xfconf/xfce-perchannel-xml'
  /usr/bin/install -c -m 644 xsettings.xml '/System/Settings/xdg/xfce4/xfconf/xfce-perchannel-xml'
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/xfsettingsd'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/xfsettingsd'
 Making install in po
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
-linguas="am ar ast be be@tarask bg bn ca cs da de el en_AU en_CA en_GB es eu fi fr gl he hr hu hy_AM id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW "; \
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0/po'
+linguas="am ar ast be bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu hy_AM id ie is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur zh_CN zh_HK zh_TW "; \
 for lang in $linguas; do \
   dir=/usr/share/locale/$lang/LC_MESSAGES; \
-  /bin/sh /Data/Compile/Sources/xfce4-settings-4.14.3/install-sh -d $dir; \
+  /bin/sh /Data/Compile/Sources/xfce4-settings-4.14.0/install-sh -d $dir; \
   if test -r $lang.gmo; then \
     /usr/bin/install -c -m 644 $lang.gmo $dir/xfce4-settings.mo; \
     echo "installing $lang.gmo as $dir/xfce4-settings.mo"; \
@@ -10280,7 +10347,6 @@ installing am.gmo as /usr/share/locale/am/LC_MESSAGES/xfce4-settings.mo
 installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/xfce4-settings.mo
 installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/xfce4-settings.mo
 installing be.gmo as /usr/share/locale/be/LC_MESSAGES/xfce4-settings.mo
-installing be@tarask.gmo as /usr/share/locale/be@tarask/LC_MESSAGES/xfce4-settings.mo
 installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xfce4-settings.mo
 installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/xfce4-settings.mo
 installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xfce4-settings.mo
@@ -10289,7 +10355,6 @@ installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xfce4-settings.mo
 installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xfce4-settings.mo
 installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xfce4-settings.mo
 installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/xfce4-settings.mo
-installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/xfce4-settings.mo
 installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xfce4-settings.mo
 installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xfce4-settings.mo
 installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/xfce4-settings.mo
@@ -10336,13 +10401,13 @@ installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/xfce4-settings.mo
 installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xfce4-settings.mo
 installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/xfce4-settings.mo
 installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-settings.mo
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3/po'
-make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
-make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0/po'
+make[1]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
+make[2]: Entering directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
 make[2]: Nothing to be done for 'install-exec-am'.
 make[2]: Nothing to be done for 'install-data-am'.
-make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
-make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.3'
+make[2]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
+make[1]: Leaving directory '/Data/Compile/Sources/xfce4-settings-4.14.0'
 UnionSandbox: Cleaning up.
 UnionSandbox: Moving entries to: /Programs/XFCE-Meta-Stable/4.14/.SandboxInstall_Root
 SandboxInstall: Postprocessing Sandbox
@@ -10367,9 +10432,12 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 536 files.
+SymlinkProgram: Processed 534 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
+
+Compile: You are encouraged to submit your recipe for inclusion into the distribution.
+Compile: Please run 'ContributeRecipe XFCE4-Settings 4.14.0' to do this.
 SymlinkProgram: Symlinking XFCE-Meta-Stable 4.14.
 SymlinkProgram: Symlinking global settings...
 SymlinkProgram: Symlinking tasks...
@@ -10390,27 +10458,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 535 files.
+SymlinkProgram: Processed 533 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFCE4-Session version 4.14.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:46:03--  https://archive.xfce.org/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2
+--2021-08-27 12:20:29--  https://archive.xfce.org/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://mirror.netcologne.de/xfce/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2 [following]
---2021-08-26 19:46:03--  https://mirror.netcologne.de/xfce/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2
-Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
-Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2 [following]
+--2021-08-27 12:20:29--  https://xfce.mirror.wearetriple.com/src/xfce/xfce4-session/4.14/xfce4-session-4.14.0.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 826950 (808K) [application/octet-stream]
 Saving to: 'xfce4-session-4.14.0.tar.bz2'
 
-xfce4-session-4.14. 100%[=================>] 807.57K  5.22MB/s    in 0.2s    
+xfce4-session-4.14.0.tar 100%[=================================>] 807.57K  1.72MB/s    in 0.5s    
 
-2021-08-26 19:46:04 (5.22 MB/s) - 'xfce4-session-4.14.0.tar.bz2' saved [826950/826950]
+2021-08-27 12:20:30 (1.72 MB/s) - 'xfce4-session-4.14.0.tar.bz2' saved [826950/826950]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfce4-session-4.14.0.tar.bz2 is complete based only on size.
@@ -11099,7 +11167,7 @@ SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Creating expanded directory 'xsessions'...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 604 files.
+SymlinkProgram: Processed 602 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 
@@ -11125,27 +11193,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 602 files.
+SymlinkProgram: Processed 600 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFDesktop version 4.14.1.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:47:53--  https://archive.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2
+--2021-08-27 12:22:20--  https://archive.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2 [following]
---2021-08-26 19:47:54--  https://xfce.mirror.wearetriple.com/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://archive.be.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2 [following]
+--2021-08-27 12:22:20--  https://archive.be.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2
+Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
+Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 1533788 (1.5M) [application/octet-stream]
+Length: 1533788 (1.5M) [application/x-bzip2]
 Saving to: 'xfdesktop-4.14.1.tar.bz2'
 
-xfdesktop-4.14.1.ta 100%[=================>]   1.46M  4.91MB/s    in 0.3s    
+xfdesktop-4.14.1.tar.bz2 100%[=================================>]   1.46M  3.53MB/s    in 0.4s    
 
-2021-08-26 19:47:54 (4.91 MB/s) - 'xfdesktop-4.14.1.tar.bz2' saved [1533788/1533788]
+2021-08-27 12:22:21 (3.53 MB/s) - 'xfdesktop-4.14.1.tar.bz2' saved [1533788/1533788]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfdesktop-4.14.1.tar.bz2 is complete based only on size.
@@ -11752,7 +11820,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 679 files.
+SymlinkProgram: Processed 677 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 
@@ -11778,27 +11846,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 678 files.
+SymlinkProgram: Processed 676 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFWM4 version 4.14.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:49:45--  https://archive.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2
+--2021-08-27 12:24:16--  https://archive.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://archive.be.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2 [following]
---2021-08-26 19:49:45--  https://archive.be.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2
-Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
-Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2 [following]
+--2021-08-27 12:24:16--  https://xfce.mirror.wearetriple.com/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 1122735 (1.1M) [application/x-bzip2]
+Length: 1122735 (1.1M) [application/octet-stream]
 Saving to: 'xfwm4-4.14.0.tar.bz2'
 
-xfwm4-4.14.0.tar.bz 100%[=================>]   1.07M  3.92MB/s    in 0.3s    
+xfwm4-4.14.0.tar.bz2     100%[=================================>]   1.07M  2.01MB/s    in 0.5s    
 
-2021-08-26 19:49:46 (3.92 MB/s) - 'xfwm4-4.14.0.tar.bz2' saved [1122735/1122735]
+2021-08-27 12:24:17 (2.01 MB/s) - 'xfwm4-4.14.0.tar.bz2' saved [1122735/1122735]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfwm4-4.14.0.tar.bz2 is complete based only on size.
@@ -12579,7 +12647,7 @@ SymlinkProgram: Symlinking shared...
 SymlinkProgram: Creating expanded directory 'themes'...
 SymlinkProgram: Creating expanded directory 'Default'...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 761 files.
+SymlinkProgram: Processed 759 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 
@@ -12605,27 +12673,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 757 files.
+SymlinkProgram: Processed 755 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFCE4-AppFinder version 4.14.0.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:52:11--  https://archive.xfce.org/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2
+--2021-08-27 12:26:45--  https://archive.xfce.org/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://mirror.netcologne.de/xfce/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2 [following]
---2021-08-26 19:52:12--  https://mirror.netcologne.de/xfce/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2
-Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
-Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+Location: https://archive.be.xfce.org/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2 [following]
+--2021-08-27 12:26:45--  https://archive.be.xfce.org/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2
+Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
+Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 519705 (508K) [application/octet-stream]
+Length: 519705 (508K) [application/x-bzip2]
 Saving to: 'xfce4-appfinder-4.14.0.tar.bz2'
 
-xfce4-appfinder-4.1 100%[=================>] 507.52K  --.-KB/s    in 0.1s    
+xfce4-appfinder-4.14.0.t 100%[=================================>] 507.52K  2.10MB/s    in 0.2s    
 
-2021-08-26 19:52:12 (4.21 MB/s) - 'xfce4-appfinder-4.14.0.tar.bz2' saved [519705/519705]
+2021-08-27 12:26:46 (2.10 MB/s) - 'xfce4-appfinder-4.14.0.tar.bz2' saved [519705/519705]
 
 Compile: Unpacking file /Data/Compile/Archives/xfce4-appfinder-4.14.0.tar.bz2...
 
@@ -13066,7 +13134,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 819 files.
+SymlinkProgram: Processed 817 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 SymlinkProgram: Symlinking XFCE-Meta-Stable 4.14.
@@ -13089,7 +13157,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 818 files.
+SymlinkProgram: Processed 816 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
@@ -13101,21 +13169,21 @@ NewVersion: Recipe found in /Data/Compile/Recipes/Tumbler/0.2.9
 NewVersion: Creating recipe for Tumbler 0.2.7 based on 0.2.9.
 NewVersion: Please fill in the 'compileRecipeAuthor' variable in /System/Settings/Compile/Compile.conf
 NewVersion: Downloading source code...
---2021-08-26 19:53:12--  https://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2
+--2021-08-27 12:27:47--  https://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2 [following]
---2021-08-26 19:53:13--  https://xfce.mirror.wearetriple.com/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://mirror.netcologne.de/xfce/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2 [following]
+--2021-08-27 12:27:47--  https://mirror.netcologne.de/xfce/src/xfce/tumbler/0.2/tumbler-0.2.7.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 564538 (551K) [application/octet-stream]
 Saving to: 'tumbler-0.2.7.tar.bz2'
 
-tumbler-0.2.7.tar.b 100%[=================>] 551.31K  2.80MB/s    in 0.2s    
+tumbler-0.2.7.tar.bz2    100%[=================================>] 551.31K  3.01MB/s    in 0.2s    
 
-2021-08-26 19:53:13 (2.80 MB/s) - 'tumbler-0.2.7.tar.bz2' saved [564538/564538]
+2021-08-27 12:27:47 (3.01 MB/s) - 'tumbler-0.2.7.tar.bz2' saved [564538/564538]
 
 NewVersion: Recipe template for Tumbler 0.2.7 created
 NewVersion: Printing result (/Data/Compile/Recipes/Tumbler/0.2.7/Recipe):
@@ -13129,21 +13197,21 @@ recipe_type=configure
 NewVersion: Done
 Compile: Compiling Tumbler version 0.2.9.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:53:17--  https://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2
+--2021-08-27 12:27:51--  https://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://mirror.netcologne.de/xfce/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2 [following]
---2021-08-26 19:53:17--  https://mirror.netcologne.de/xfce/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2
-Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
-Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
+Location: https://xfce.mirror.wearetriple.com/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2 [following]
+--2021-08-27 12:27:51--  https://xfce.mirror.wearetriple.com/src/xfce/tumbler/0.2/tumbler-0.2.9.tar.bz2
+Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
+Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 557794 (545K) [application/octet-stream]
 Saving to: 'tumbler-0.2.9.tar.bz2'
 
-tumbler-0.2.9.tar.b 100%[=================>] 544.72K  --.-KB/s    in 0.1s    
+tumbler-0.2.9.tar.bz2    100%[=================================>] 544.72K  1.60MB/s    in 0.3s    
 
-2021-08-26 19:53:17 (4.44 MB/s) - 'tumbler-0.2.9.tar.bz2' saved [557794/557794]
+2021-08-27 12:27:52 (1.60 MB/s) - 'tumbler-0.2.9.tar.bz2' saved [557794/557794]
 
 Compile: Unpacking file /Data/Compile/Archives/tumbler-0.2.9.tar.bz2...
 
@@ -14189,7 +14257,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 876 files.
+SymlinkProgram: Processed 874 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 SymlinkProgram: Symlinking XFCE-Meta-Stable 4.14.
@@ -14212,27 +14280,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 875 files.
+SymlinkProgram: Processed 873 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling Thunar-Volman version 0.9.5.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:56:02--  https://archive.xfce.org/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2
+--2021-08-27 12:30:35--  https://archive.xfce.org/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://xfce.mirror.wearetriple.com/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2 [following]
---2021-08-26 19:56:02--  https://xfce.mirror.wearetriple.com/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2
-Resolving xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)... 93.187.10.106, 2a00:1f00:dc06:10::106
-Connecting to xfce.mirror.wearetriple.com (xfce.mirror.wearetriple.com)|93.187.10.106|:443... connected.
+Location: https://archive.be.xfce.org/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2 [following]
+--2021-08-27 12:30:36--  https://archive.be.xfce.org/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2
+Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
+Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 501846 (490K) [application/octet-stream]
+Length: 501846 (490K) [application/x-bzip2]
 Saving to: 'thunar-volman-0.9.5.tar.bz2'
 
-thunar-volman-0.9.5 100%[=================>] 490.08K  2.93MB/s    in 0.2s    
+thunar-volman-0.9.5.tar. 100%[=================================>] 490.08K  2.08MB/s    in 0.2s    
 
-2021-08-26 19:56:03 (2.93 MB/s) - 'thunar-volman-0.9.5.tar.bz2' saved [501846/501846]
+2021-08-27 12:30:36 (2.08 MB/s) - 'thunar-volman-0.9.5.tar.bz2' saved [501846/501846]
 
 Compile: Unpacking file /Data/Compile/Archives/thunar-volman-0.9.5.tar.bz2...
 
@@ -14725,7 +14793,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 933 files.
+SymlinkProgram: Processed 931 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 SymlinkProgram: Symlinking XFCE-Meta-Stable 4.14.
@@ -14748,27 +14816,27 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 932 files.
+SymlinkProgram: Processed 930 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Already up to date.
 Compile: Compiling XFCE4-Power-Manager version 1.6.5.
 Compile: Running without dependency-based namespace (Runner not available).
---2021-08-26 19:57:07--  https://archive.xfce.org/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2
+--2021-08-27 12:31:42--  https://archive.xfce.org/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2
 Resolving archive.xfce.org (archive.xfce.org)... 217.70.191.87
 Connecting to archive.xfce.org (archive.xfce.org)|217.70.191.87|:443... connected.
 HTTP request sent, awaiting response... 302 Found
-Location: https://archive.be.xfce.org/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2 [following]
---2021-08-26 19:57:07--  https://archive.be.xfce.org/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2
-Resolving archive.be.xfce.org (archive.be.xfce.org)... 138.48.2.107
-Connecting to archive.be.xfce.org (archive.be.xfce.org)|138.48.2.107|:443... connected.
+Location: https://mirror.netcologne.de/xfce/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2 [following]
+--2021-08-27 12:31:42--  https://mirror.netcologne.de/xfce/xfce/4.14/src/xfce4-power-manager-1.6.5.tar.bz2
+Resolving mirror.netcologne.de (mirror.netcologne.de)... 194.8.197.22, 2001:4dd0:1234:1::deb
+Connecting to mirror.netcologne.de (mirror.netcologne.de)|194.8.197.22|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 1205473 (1.1M) [application/x-bzip2]
+Length: 1205473 (1.1M) [application/octet-stream]
 Saving to: 'xfce4-power-manager-1.6.5.tar.bz2'
 
-xfce4-power-manager 100%[=================>]   1.15M  4.18MB/s    in 0.3s    
+xfce4-power-manager-1.6. 100%[=================================>]   1.15M  6.82MB/s    in 0.2s    
 
-2021-08-26 19:57:08 (4.18 MB/s) - 'xfce4-power-manager-1.6.5.tar.bz2' saved [1205473/1205473]
+2021-08-27 12:31:43 (6.82 MB/s) - 'xfce4-power-manager-1.6.5.tar.bz2' saved [1205473/1205473]
 
 FetchArchive: Warning: no MD5/SHA checksum.
 FetchArchive: Assuming /Data/Compile/Archives/xfce4-power-manager-1.6.5.tar.bz2 is complete based only on size.
@@ -15561,7 +15629,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 996 files.
+SymlinkProgram: Processed 994 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 
@@ -15587,7 +15655,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 995 files.
+SymlinkProgram: Processed 993 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 UpdateSettings: Settings differ (no current settings exist)
@@ -15665,7 +15733,7 @@ SymlinkProgram: Symlinking wrappers...
 SymlinkProgram: Symlinking libexec..
 SymlinkProgram: Symlinking shared...
 SymlinkProgram: Conflict: /Programs/GParted/1.1.0/share/icons/hicolor/icon-theme.cache
-SymlinkProgram: Processed 995 files.
+SymlinkProgram: Processed 993 files.
 SymlinkProgram: Removing unused directories...
 SymlinkProgram: Done.
 Compile: Compiling XFCE-Meta-Stable version 4.14.
