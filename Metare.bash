@@ -25,42 +25,35 @@ Compile "aRandomNameToTriggerDownloadOfRecipesFromGithub"
 curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFConf.tar.gz" --remote-name
 tar --extract --file="XFConf.tar.gz" --directory="/Data/Compile/Recipes"
 
-# 0.12.8 version of EXO does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/EXO.tar.gz" -O
-tar --extract --file="EXO.tar.gz" --gzip --verbose
-mv EXO/* "/Data/Compile/Recipes/EXO"
+# 0.12.8 version of EXO does not exist in the offical Recipes Repository.
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/EXO.tar.gz" --remote-name
+tar --extract --file="EXO.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 # 4.14.0 version of XFCE4-Panel does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Panel.tar.gz" -O
-tar --extract --file="XFCE4-Panel.tar.gz" --gzip --verbose
-mv XFCE4-Panel/* "/Data/Compile/Recipes/XFCE4-Panel"
-
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Panel.tar.gz" --remote-name
+tar --extract --file="XFCE4-Panel.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 # 4.14.0 version of XFCE4-Settings does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Settings.tar.gz" -O
-tar --extract --file="XFCE4-Settings.tar.gz" --gzip --verbose
-mv XFCE4-Settings/* "/Data/Compile/Recipes/XFCE4-Settings"
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Settings.tar.gz" --remote-name
+tar --extract --file="XFCE4-Settings.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 # 4.14.0 version of XFCE4-Session does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Session.tar.gz" -O
-tar --extract --file="XFCE4-Session.tar.gz" --gzip --verbose
-mv XFCE4-Session/* "/Data/Compile/Recipes/XFCE4-Session"
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Session.tar.gz" --remote-name
+tar --extract --file="XFCE4-Session.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 
 # 4.14.1 version of XFDesktop does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFDesktop.tar.gz" -O
-tar --extract --file="XFDesktop.tar.gz" --gzip --verbose
-mv XFDesktop/* "/Data/Compile/Recipes/XFDesktop"
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFDesktop.tar.gz" --remote-name
+tar --extract --file="XFDesktop.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 # 4.14.0 version of XFWM4 does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFWM4.tar.gz" -O
-tar --extract --file="XFWM4.tar.gz" --gzip --verbose
-mv XFWM4/* "/Data/Compile/Recipes/XFWM4"
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFWM4.tar.gz" --remote-name
+tar --extract --file="XFWM4.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
 
 # 1.6.5 version of XFCE4-Power-Manager does not exist in the offical Recipes Repository. 
-curl -L "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Power-Manager.tar.gz" -O
-tar --extract --file="XFCE4-Power-Manager.tar.gz" --gzip --verbose
-mv XFCE4-Power-Manager/* "/Data/Compile/Recipes/XFCE4-Power-Manager"
+curl --location "https://github.com/vaido-world/GoboLinux-Recipe-XFCE/raw/main/XFCE4-Power-Manager.tar.gz" --remote-name
+tar --extract --file="XFCE4-Power-Manager.tar.gz" --directory="/Data/Compile/Recipes" --gzip --verbose
+
 
 
 # Need a docbook V4.3 that includes removal of docbook config entries before installation.
