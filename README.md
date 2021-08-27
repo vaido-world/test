@@ -3,6 +3,6 @@
 ## PCRE
 ```
 vaido.world/gobo/unionfs.bash |bash
-Compile PCRE
-CreatePackage "PCRE"
+Compile PCRE2
+CreatePackage "PCRE2"
 ```
